@@ -2,6 +2,7 @@
 title: Network Syntax Highlighting in Sublime Text
 author: yandy
 layout: post
+date: 2013-08-09 11:11:55
 permalink: /2013/04/sublime-syntax-highlighting
 banner_image: sublimebanner.jpg
 categories:
