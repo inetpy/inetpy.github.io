@@ -7,8 +7,6 @@ banner_image: sample-banner-image-1.jpg
 comments: true
 ---
 
-### Welcome
-
 I'm in the process of migration, can be a bit of time but should be up ASAP.
 
 Thanks for sticking around
