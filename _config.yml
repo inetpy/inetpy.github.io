@@ -53,6 +53,8 @@ exclude:
   - .sass-cache
   - Gemfile.lock
 
+excerpt_separator: "<!--more-->"
+
 # Sass conversion configs
 sass:
   sass_dir: assets/css/_sass
