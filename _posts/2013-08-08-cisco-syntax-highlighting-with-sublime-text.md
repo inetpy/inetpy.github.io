@@ -4,9 +4,6 @@ author: yandy
 layout: post
 categories:
   - Coding
-  - Mac OS X
-  - Networking
-  - Windows
 tags:
   - arista
   - cisco
@@ -43,8 +40,5 @@ This is still somewhat **beta**, any updates I’ll publish here
 **Sample Two** 
 [ <img id="img2" title="Sample Two" alt="Sample Two" src="images/subsample2.png" />][5]
 
- [1]: http://www.sublimetext.com/3
- [2]: https://dl.dropboxusercontent.com/u/2247071/Shared/SublimeCisco.zip
- [3]: http://sublimetext.info/docs/en/basic_concepts.html
- [4]: http://ipyandy.net/wordpress/images/subsample1.png
- [5]: http://iptier.net/wordpress/images/subsample2.png
+ [4]: images/subsample1.png
+ [5]: images/subsample2.png
