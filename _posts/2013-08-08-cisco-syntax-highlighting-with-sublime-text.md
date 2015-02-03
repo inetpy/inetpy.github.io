@@ -40,5 +40,5 @@ This is still somewhat **beta**, any updates I’ll publish here
 **Sample Two** 
 [ <img id="img2" title="Sample Two" alt="Sample Two" src="images/subsample2.png" />][5]
 
- [4]: images/subsample1.png
- [5]: images/subsample2.png
+ [4]: http://blog.ipyandy.net/images/subsample1.png
+ [5]: http://blog.ipyandy.net/images/subsample2.png
