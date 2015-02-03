@@ -19,6 +19,8 @@ Here’s something I modified from the original version <a href="https://github.
 
 Follow the install directions bellow.
 
+<!--more-->
+
 Enjoy!
 
 This is still somewhat **beta**, any updates I’ll publish here
