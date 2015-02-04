@@ -18,6 +18,7 @@ tags:
   - single-topoly
 ---
 Today I'm covering a little topic that seems to trouble some people. Mainly because IS-IS is really only used in provider environments, but I happen to like it. It's a fairly stable protocol and once you get passed the OSPF vs IS-IS fight, it just works. Personally, I'll choose OSPF over IS-IS in most occasions just because more people know OSPF, but that's it. Either way, today's topic is for people running both IPv6 and IPv4 in the same network (routers / core). I've actually seen one environment where their IPv4 and IPv6 environment were completely separate.
+<!--more-->
 
 **What is Single-topology IS-IS**? It's not what the name may imply, does not mean you're running only one protocol (IS-IS for either IPv4 or IPv6). What it does mean is that, every interface running IS-IS must be configured with an identical set of address-families. And all routers in the routing domain, must support the same address-families as well. This does not mean that an interface has to have both an IPv4 and IPv6 address, but it must be able to support it, as soon as you type **ipv6 unicast-routing** most modern routers will enable the address family on all interfaces.
 
@@ -25,8 +26,6 @@ The characteristics of all interfaces running IS-IS are shared, such as metric
 
 Here's the topology we'll be looking at today. 
 <a href="{{ site.url }}/assets/images/is-is.png"><img class="aligncenter" title="IS-IS" alt="" src="{{ site.url }}/assets/images/is-is.png" width="679" height="511" /></a>
-
-<!--more-->
 
 Let's concentrate on the serial link between R2 and R8 (S1/3 on each).
 
