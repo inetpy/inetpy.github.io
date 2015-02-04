@@ -2,7 +2,7 @@
 title: 'Parsing a Routing Table with Python - Part 1'
 author: Yandy
 layout: post
-banner_image:
+banner_image: python_banner_01.png
 permalink: /2014/04/parsing-a-routing-table-with-python-part1
 categories:
   - Coding
@@ -23,7 +23,7 @@ tags:
 
 Well, not exactly, not everything you want to get or parse is handed down in a nicely formatted XML file or JSON format. These file structures translate to some type of data structure, with relative ease. Be it a list/array a dictionary container or some sort of combination.
 
-[Arista Networks][1] has a robust API for their switches called eAPI. I wrote an intro article to eAPI not that long ago.I won’t speak for others yet, onePK from Cisco just went GA recently and still hashing it out.
+<a href="http://www.arista.com/en" target="_blank">Arista Networks</a> has a robust API for their switches called eAPI. I wrote an intro article to eAPI not that long ago.I won’t speak for others yet, onePK from Cisco just went GA recently and still hashing it out.
 
 But even eAPI’s robustness does not have all the bells and whistles wrapped up and ready to serve for you. While Arista engineers and developers are working hard to get them out, there’s still quite a few things that are untranslated and packed into neat data structures.
 
@@ -160,5 +160,4 @@ If you’re still not bored to death, go on to read [Part 2][2].
 
 [img_1]: {{ site.url }}/assets/images/arista_001.png
 [img_2]: {{ site.url }}/assets/images/arista_002.png
-[1]: http://www.arista.com/en/ target=blank
 [2]: {{ site.url }}/2014/04/parsing-a-routing-table-with-python-part2
