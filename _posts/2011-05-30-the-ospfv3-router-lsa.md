@@ -27,7 +27,7 @@ Given this simple topology, where **R1** connects to **Core1** through a serial 
 
 #### Diagram
 
-<a href="{{ site.url }}/assets/images/ospfv3_nmbr_one.png"><img style="border:0 initial initial;" src="{{ site.url }}/assets/images/ospfv3_nmbr_one.png" alt="" width="" height="" />
+<a href="{{ site.url }}/assets/images/ospfv3_nmbr_one.png"><img style="border:0 initial initial;" src="{{ site.url }}/assets/images/ospfv3_nmbr_one.png" alt="" width="" height="" /></a>
 
 <!--more-->
 
