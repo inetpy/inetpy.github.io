@@ -21,29 +21,29 @@ When VIRL first came out everyone jumped on the bandwagon, including myself. Som
 
 If you're styding for CCIE or making quick config checks:
 
-. The 15 router limi is not enough
-. Most vendors require 20+ routers
-. Resource intensive
-	. Even when running only a few instances
-	. My 16GB MBP struggles
-. No L2 support yet (not a big deal for new CCIEv5)
-. $200 for most (can be a bit high depending on usage)
+* The 15 router limi is not enough
+* Most vendors require 20+ routers
+* Resource intensive
+	* Even when running only a few instances
+	* My 16GB MBP struggles
+* No L2 support yet (not a big deal for new CCIEv5)
+* $200 for most (can be a bit high depending on usage)
 
 If you're building out a POC type network, VIRL is definitely the way to go, since it was deisgned to run on x86 platforms there's less bug vs configuration contention.
 <!--more-->
 
 VIRL does have:
 
-. Support for many more instance types
-	. NX-OS
-	. IOS
-	. IOS-XR
-	. IOS-XE
-	. This list will probably grow
-. Built to run on x86 Platforms
-. Pre-build topolgies and configurations with AutoNetkit
-. Run Ubuntu instances to test end-to-end
-. Much more
+* Support for many more instance types
+	* NX-OS
+	* IOS
+	* IOS-XR
+	* IOS-XE
+	* This list will probably grow
+* Built to run on x86 Platforms
+* Pre-build topolgies and configurations with AutoNetkit
+* Run Ubuntu instances to test end-to-end
+* Much more
 
 These are the reasons for a more *real world* approach to using VIRL. But if you're studying, or simply want to look up a command. Bringing up an instance can take a while depending.
 
@@ -55,21 +55,21 @@ Unless there's some platform specific feature (IOS-XE, XR, NX-OS) IOU can be ver
 
 Case for IOU:
 
-. Barely any resource usage
-. Quickly run on any Linux VM
-	. Can run many instances 20+ with very little resources
-. Loading and re-loading configs much quicker
-. Instances start up much faster
+* Barely any resource usage
+* Quickly run on any Linux VM
+	* Can run many instances 20+ with very little resources
+* Loading and re-loading configs much quicker
+* Instances start up much faster
 
 The NOT so CASE for IOU:
 
-. Can be very involved even after initial install
-	. Require scripts and text files to form topology
-	. Unless you use IOU-WEB type interface (I don't)
-. Not easily accissible
-. Updates hard to come by
-. L2 support is minimal (extremely buggy)
-	. Again this is not really a big deal for me
+* Can be very involved even after initial install
+	* Require scripts and text files to form topology
+	* Unless you use IOU-WEB type interface (I don't)
+* Not easily accissible
+* Updates hard to come by
+* L2 support is minimal (extremely buggy)
+* Again this is not really a big deal for me
 
 ### Summary
 
