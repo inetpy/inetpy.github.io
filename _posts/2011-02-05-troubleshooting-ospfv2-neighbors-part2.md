@@ -22,13 +22,13 @@ This will seem very similar to t he last post, again going on simple. Things tha
 
 The debugging commands pertain to OSPFv2, however, the same thing can happen with any other IGP that requires peering. I'll cover two different ways of really configuring the same mistake, or overlooking the same mistake by someone else.
 
-**Diagram**
+### Diagram
 
 [<img class="alignnone" src="http://ipyandy.net/assets/images/r8-r4.png" alt="" width="231" height="243" />][1]
 
-&nbsp;
+<!--more-->
 
-**<!--more-->Getting to the issue**
+#### Getting to the issue
 
 Checking neighbors on both routers reveals some time of problem, that ospf adjacencies are not forming. So you go through your usual steps; (I have logging buffered only)
 
@@ -47,7 +47,7 @@ r8#debug ip ospf hello
 OSPF hello events debugging is on  
 r8#
 
-r8#sh logg……. &#8212; output removed  
+r8#sh logg……. output removed  
 *Mar  7 23:56:53.254: OSPF: Send hello to 224.0.0.5 area 48 on FastEthernet0/0 from 172.8.48.8 
 Mar  7 23:57:03.170: OSPF: Send hello to 224.0.0.5 area 48 on FastEthernet0/0 from 172.8.48.8</p> 
 
@@ -55,7 +55,8 @@ r4#debug ip ospf hello
 OSPF hello events debugging is on  
 r4#
 
-r4#sh logg&#8230;.. OUTPUT REMOVED  
+r4#sh logg
+....OUTPUT REMOVED  
 *Mar  8 00:00:51.990: OSPF: Send hello to 224.0.0.5 area 48 on FastEthernet0/1 from 172.8.40.4  
 *Mar  8 00:01:01.266: OSPF: Send hello to 224.0.0.5 area 48 on FastEthernet0/1 from 172.8.40.4  
 *Mar  8 00:01:10.634: OSPF: Send hello to 224.0.0.5 area 48 on FastEthernet0/1 from 172.8.40.4  
