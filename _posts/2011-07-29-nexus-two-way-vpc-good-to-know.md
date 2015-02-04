@@ -24,6 +24,7 @@ Quick overview of topology, two Nexus 7000s and two Nexus 5020s each with two 10
 
 **Diagram**  
 <img id="diagram" src="{{ site.url }}/assets/images/Two_Way_vPC.png" alt="Diagram" title="" />
+<!--more-->
 
 # The Issue {#theissue}
 
