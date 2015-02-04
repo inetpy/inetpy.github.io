@@ -289,4 +289,4 @@ So here’s one way to tie in IPv6 islands through an IPv4 transport only Intern
 
 Next post I’ll cover how to do the same with **LISP**, which is quickly becoming one of my favorite new things. These are not production tests, only labs and proof of concept type of things, so make sure you test them before putting them in your network. Specially LISP, not many production ready LISP environments out there yet, but I have feeling that they’ll be a few soon.
 
- [1]: {{ site.url }}/images/assests/IPv6-DMVPN-Topology.png
+ [1]: {{ site.url }}/assests/images/IPv6-DMVPN-Topology.png
