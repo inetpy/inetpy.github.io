@@ -78,7 +78,8 @@ Why don’t we examine a bit of where our central database for EID-prefix to RLO
 
 #### Map Server / Resolver {#mapserverresolver}
 
-<pre lang="plain" line="“1”">MS_MR#sh run | sec router lisp
+{% highlight text %}
+MS_MR#sh run | sec router lisp
 router lisp
  site MainSite
   description C1_C2_C4
@@ -100,7 +101,8 @@ router lisp
  ! 
  ipv6 map-server
  ipv6 map-resolver
- ipv6 alt-vrf LISP</pre>
+ ipv6 alt-vrf LISP
+ {% endhighlight %}
 
 Only the IPv6 relevant configuration and information will be shown throughout the rest of the blog post. This is the relevant Map Server / Map Resolver configuration. As you can see, there’s really not much to the configuration itself;
 
