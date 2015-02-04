@@ -212,8 +212,10 @@ img {
  * header used to keep the logo, site name and short description.
  */
 
+
 .header {
   background: $color-white;
+  background-image: url('{{ site.baseurl }}/assets/yr-beautiful-hd-beach-sunset-wallpapers-top-desktop-images-widescreen.png');
   margin-bottom: 3rem;
   border-bottom: 1px solid $gray-lighter;
   width: 100%;
