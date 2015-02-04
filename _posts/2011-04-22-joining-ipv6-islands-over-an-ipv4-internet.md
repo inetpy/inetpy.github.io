@@ -20,6 +20,8 @@ tags:
 
 Well this one really doesn’t need much of an explanation anymore, IPv6 is here and IPv4 has been here for a long time. In most networks, the two must co-exist side by side or one on top of the other for a while, until the time where IPv6 becomes the only one. Hear that?; “It’s the sound of inevitability Mr. Anderson”. Whether you like to think about IPv6 or not, it’s here and it’s here to stay. So continuing on from a previous post on my own IPv6 series, we’re going to look at how to get disparate IPv6 sites over an IPv4 only Internet (the same can apply for an IPv4 only Backbone).
 
+<!--more-->
+
 # What this is not {#whatthisisnot}
 
 It is not a primer on DMVPNs and how they work, <a href="https://twitter.com/#!/plapukhov" target="blank">Petr Lapukhov</a> has two great articles that go into some depth on how these work. The \[first one\]\[dmpvn1\] explaining Phase-I and Phase-II, the <a href="http://blog.ine.com/2008/12/23/dmvpn-phase-3/" target="blank">second one</a> explaining Phase-III of these technologies. Also, <a href="https://twitter.com/#!/ioshints" target="blank">Ivan Pepelnjak</a> has another really good <a href="http://www.ioshints.info/DMVPN:_From_Basics_to_Scalable_Networks" target="blank">webinar</a> dedicated to DMVPNs and he goes over allot of architecture decisions (I believe is only available as a recording now). And an <a href="http://www.ioshints.info/DMVPN_New_Features" target="blank">upcoming</a> one, that has few new features in the DMVPN world, and I’m sure like all the others, it’ll be great to attend.
