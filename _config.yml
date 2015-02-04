@@ -4,7 +4,7 @@ tagline: "Internetworking and Python for Engineers"
 email: yr@ipyandy.net
 description: "Internetworking and Python for Engineers"
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://blog.ipyandy.net" # the base hostname & protocol for your site
+url: "http://ipyandy.net" # the base hostname & protocol for your site
 logourl: # Site logo
 author: "Yandy Ramirez"
 author_thumbnail: # Author avatar
