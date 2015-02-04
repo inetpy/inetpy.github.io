@@ -30,7 +30,6 @@ If you're styding for CCIE or making quick config checks:
 * $200 for most (can be a bit high depending on usage)
 
 If you're building out a POC type network, VIRL is definitely the way to go, since it was deisgned to run on x86 platforms there's less bug vs configuration contention.
-<!--more-->
 
 VIRL does have:
 
