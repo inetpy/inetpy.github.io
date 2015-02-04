@@ -23,9 +23,11 @@ tags:
 
 Well, not exactly, not everything you want to get or parse is handed down in a nicely formatted XML file or JSON format. These file structures translate to some type of data structure, with relative ease. Be it a list/array a dictionary container or some sort of combination.
 
-<a href="http://http://www.arista.com/en/" target="_blank">Arista Networks</a> has a robust API for their switches called eAPI. I wrote an intro article to eAPI not that long ago.I won’t speak for others yet, onePK from Cisco just went GA recently and still hashing it out.
+[Arista Networks][http://www.arista.com/en] has a robust API for their switches called eAPI. I wrote an intro article to eAPI not that long ago.I won’t speak for others yet, onePK from Cisco just went GA recently and still hashing it out.
 
 But even eAPI’s robustness does not have all the bells and whistles wrapped up and ready to serve for you. While Arista engineers and developers are working hard to get them out, there’s still quite a few things that are untranslated and packed into neat data structures.
+
+<!--more-->
 
 ### Running it
 
