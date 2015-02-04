@@ -22,6 +22,7 @@ tags:
 FabricPath is a Layer&#8211;2 routing architecture (yes L2 routing), using ISIS to build shortest path trees to destination bridges (using their bridge-id). Cisco offers plenty of documents <a href="http://www.cisco.com/en/US/prod/collateral/switches/ps9441/ps9670/guide_c07-690079.html" target="blank">This is one of them</a> explaining in detail what FabricPath is. FabricPath (Cisco&#8217;s implementation of a non-standard TRILL implementation) completely eliminates spanning-tree from the FP links. 
 
 FabricPath does require F1 or F2 line-cards in a Nexus 7000 series switch. It also requires an additional license called (ENHANCED_L2) for FabricPath only. 
+<!--more-->
 
 ### M Cards and FabricPath VLAN
 
