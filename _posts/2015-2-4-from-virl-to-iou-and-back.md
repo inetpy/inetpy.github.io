@@ -17,6 +17,8 @@ tags:
 ---
 When VIRL first came out everyone jumped on the bandwagon, including myself. Some of us have had it before it was officially released to the public. Cisco's VIRL is really a good piece of software, but it has its short comings.
 
+<!--more-->
+
 ### VIRL 
 
 If you're styding for CCIE or making quick config checks:
