@@ -45,7 +45,7 @@ VIRL does have:
 . Run Ubuntu instances to test end-to-end
 . Much more
 
-These are the reasons for a more *real world. approach to using VIRL. But if you're studying, or simply want to look up a command. Bringing up an instance can take a while depending.
+These are the reasons for a more *real world* approach to using VIRL. But if you're studying, or simply want to look up a command. Bringing up an instance can take a while depending.
 
 ### IOU
 
