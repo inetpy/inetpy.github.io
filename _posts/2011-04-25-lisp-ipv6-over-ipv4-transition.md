@@ -58,7 +58,7 @@ Whether LISP gains global acceptance or not (I think it should and will), it’s
 
 # Diagram {#diagram}
 
-[<img id="lispdiagram" title="LISP Diagram" alt="LISP Diagram" src="http://ipyandy.net/wordpress/images/LISP_IPv6_IPv4.png" />][1]
+[<img id="lispdiagram" title="LISP Diagram" alt="LISP Diagram" src="LISP_IPv6_IPv4.png" />][1]
 
 # Topology Summary {#topologysummary}
 
@@ -504,5 +504,5 @@ At least on the Cisco configuration, I can’t find any information on changing 
 
 Finally, the good part, the end of this long a** post right? ;). Hopefully it’s been somewhat useful and or informative and not mis-leading. As of now, I like LISP and I’m interested in it’s development, it seems like it may have a place after all in our networks. For which purpose it’s used, really depends on needs, like just about everything we engineer / design in this industry.
 
- [1]: http://ipyandy.net/wordpress/images/LISP_IPv6_IPv4.png
+ [1]: LISP_IPv6_IPv4.png
  [2]: https://datatracker.ietf.org/doc/draft-ietf-lisp/?include_text=1
