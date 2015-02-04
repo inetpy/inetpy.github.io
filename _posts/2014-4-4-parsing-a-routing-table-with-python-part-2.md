@@ -74,6 +74,17 @@ def main():
 * The results are the printed to screen printResult(result)
 * this a formatting function, to make it look pretty when outputted to screen.
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ipy_responsive_2_text -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2031545302097188"
+     data-ad-slot="7544446295"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ##### This following code builds the devie (in this case sw1).
 
 {% highlight python %}
