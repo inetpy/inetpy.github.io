@@ -29,7 +29,7 @@ Again, any code “snippets” are not the full representation of the program. T
 
 ##### Running this line
 
-{% highlight shell %}
+{% highlight bash %}
 $ ./scripts/netCalls.py -m arista -n sw1 -d veos-01 -f getRoutes
 {% endhighlight %}
 
@@ -210,7 +210,7 @@ The others work much in the same, except with different regular expressions to f
 
 ##### This is finally the pretty looking output to screen.
 
-{% highlight shell %}
+{% highlight bash %}
 # --------------------------------------------------------------------------------
 # ARISTA DATASTRUCTURE REPRESENTATION
 # --------------------------------------------------------------------------------
@@ -287,7 +287,7 @@ NEXTHOP_INT_RE = re.compile(r'((?&lt;=\d,\s)|(?&lt;=connected,\s))(([\w])+([\d]{
 
 We can also call the script with an -o or –options flag to see specific protocol routes.
 
-{% highlight shell %}
+{% highlight bash %}
 $ ./scripts/netCalls.py -m arista -n sw1 -i veos-01 -f getRoutes -o ospf
  
 # --------------------------------------------------------------------------------
@@ -322,7 +322,7 @@ $ ./scripts/netCalls.py -m arista -n sw1 -i veos-01 -f getRoutes -o ospf
 
 We can even pass a –vrf flag and see those routes.
 
-{% highlight shell %}
+{% highlight bash %}
 $ ./scripts/netCalls.py -m arista -n sw1 -i veos-01 -f getRoutes --vrf mgmt
  
 # --------------------------------------------------------------------------------
@@ -341,7 +341,7 @@ $ ./scripts/netCalls.py -m arista -n sw1 -i veos-01 -f getRoutes --vrf mgmt
 
 Here’s combining –vrf and the -o flags to find the connected routes inside a vrf (connected, because it’s only a managment vrf and has no protocol routes).
 
-{% highlight shell %}
+{% highlight bash %}
 $ ./scripts/netCalls.py -m arista -n sw1 -i veos-01 -f getRoutes --vrf mgmt -o connected
  
 # --------------------------------------------------------------------------------
@@ -357,7 +357,7 @@ $ ./scripts/netCalls.py -m arista -n sw1 -i veos-01 -f getRoutes --vrf mgmt -o c
 
 We can even pass the specific route we’re looking for with the –options, -o flag.
 
-{% highlight shell %}
+{% highlight bash %}
 $ ./scripts/netCalls.py -m arista -n sw1 -i veos-01 -f getRoutes -o 1.1.2.0
  
 # --------------------------------------------------------------------------------
@@ -383,7 +383,7 @@ I called the class standardRoutes because technically, this works with Cisco IOS
 
 An output of of a Cisco IOS show ip route command. This was copied manually into the getRoutes method.
 
-{% highlight shell %}
+{% highlight bash %}
 cisco_str = '''Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
      D - EIGRP, EX - EIGRP external, O - OSPF, IA - OSPF inter area 
      N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
@@ -410,7 +410,7 @@ cisco_str = '''Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
 
 ##### Output
 
-{% highlight shell %}
+{% highlight bash %}
 # --------------------------------------------------------------------------------
 # CISCO DATASTRUCTURE REPRESENTATION
 # --------------------------------------------------------------------------------
