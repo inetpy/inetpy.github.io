@@ -160,5 +160,5 @@ If you’re still not bored to death, go on to read [Part 2][2].
 
 [img_1]: {{ site.url }}/assets/images/arista_001.png
 [img_2]: {{ site.url }}/assets/images/arista_002.png
-[1]: http://www.arista.com/en/
+[1]: http://www.arista.com/en/ target=blank
 [2]: {{ site.url }}/2014/04/parsing-a-routing-table-with-python-part2
