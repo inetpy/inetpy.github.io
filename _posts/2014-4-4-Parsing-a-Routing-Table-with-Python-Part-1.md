@@ -55,7 +55,7 @@ When coding with this type of structure, as complicated as it may seem, it’s e
 
 Lets get that output to show in the terminal prompt with a simple class method that just gets the values returned by “show interfaces brief” command.
 
-{% highlight shell %}
+{% highlight bash %}
 # function returns a dictionary of the interfaces and their status
 # along with other relevant information
 def getInterfacesStatus(self):
@@ -66,7 +66,7 @@ def getInterfacesStatus(self):
 
 The above code returns the response given by the _runCMD funtion. The following script utilizes that code to print out a representation of that in a terminal.
 
-{% highlight shell %}
+{% highlight bash %}
 $ ./scripts/netCalls.py -m arista -n sw1 -i veos-01 -f getInterfacesStatus
  
 # --------------------------------------------------------------------------------
@@ -100,7 +100,7 @@ This is much nicer than our first screenshot, where the output was one long stri
 
 Here’s our first screenshot in a terminal window, through the script.
 
-{% highlight shell %}
+{% highlight bash %}
 $ ./scripts/netCalls.py -m arista -n sw1 -i veos-01 -f getRoutes
  
 Codes: C - connected, S - static, K - kernel,
