@@ -23,7 +23,7 @@ tags:
 
 Well, not exactly, not everything you want to get or parse is handed down in a nicely formatted XML file or JSON format. These file structures translate to some type of data structure, with relative ease. Be it a list/array a dictionary container or some sort of combination.
 
-[Arista Networks][http://www.arista.com/en] has a robust API for their switches called eAPI. I wrote an intro article to eAPI not that long ago.I won’t speak for others yet, onePK from Cisco just went GA recently and still hashing it out.
+[Arista Networks][1] has a robust API for their switches called eAPI. I wrote an intro article to eAPI not that long ago.I won’t speak for others yet, onePK from Cisco just went GA recently and still hashing it out.
 
 But even eAPI’s robustness does not have all the bells and whistles wrapped up and ready to serve for you. While Arista engineers and developers are working hard to get them out, there’s still quite a few things that are untranslated and packed into neat data structures.
 
@@ -156,8 +156,9 @@ How do we represent this? What data is best suited for this? Well best is of cou
 
 ### Putting it Together
 
-If you’re still not bored to death, go on to read [Part 2][1].
+If you’re still not bored to death, go on to read [Part 2][2].
 
 [img_1]: {{ site.url }}/assets/images/arista_001.png
 [img_2]: {{ site.url }}/assets/images/arista_002.png
-[1]: {{ site.url }}/2014/04/parsing-a-routing-table-with-python-part2
+[1]: http://www.arista.com/en/
+[2]: {{ site.url }}/2014/04/parsing-a-routing-table-with-python-part2
