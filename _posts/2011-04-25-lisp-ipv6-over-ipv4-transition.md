@@ -2,6 +2,7 @@
 title: '{LISP} IPv6 over IPv4 Transition'
 author: Yandy
 layout: post
+banner_image: Lisp-logo.jpg
 permalink: 2011/04/lisp-ipv6-over-ipv4-transition/
 dsq_thread_id:
   - 2479721805
