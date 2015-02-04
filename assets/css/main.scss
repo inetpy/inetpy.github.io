@@ -215,7 +215,6 @@ img {
 
 .header {
   background: $color-white;
-  background-image: url('{{ site.baseurl }}/assets/yr-beautiful-hd-beach-sunset-wallpapers-top-desktop-images-widescreen.png');
   margin-bottom: 3rem;
   border-bottom: 1px solid $gray-lighter;
   width: 100%;
@@ -239,7 +238,6 @@ img {
 
 .header .header-logo {
   min-height: 44px;
-  background-image: url('{{ site.baseurl }}/assets/yr-beautiful-hd-beach-sunset-wallpapers-top-desktop-images-widescreen.png');
   padding-right: 10px;
   @include column(1);
   text-align: center;
@@ -248,7 +246,6 @@ img {
 .header .header-logo img {
   text-align: center;
   margin: 0 auto; 
-  background-image: url('{{ site.baseurl }}/assets/yr-beautiful-hd-beach-sunset-wallpapers-top-desktop-images-widescreen.png');
 }
 
 .header .header-logo a {
