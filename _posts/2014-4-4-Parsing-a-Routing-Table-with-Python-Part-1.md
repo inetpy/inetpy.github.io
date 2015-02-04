@@ -53,6 +53,16 @@ When coding with this type of structure, as complicated as it may seem, it’s e
 
 **Disclaimer:** code shown in this post is partial, and only shows the parts relevant to the information being shown. Links to full source will be placed at the end of the series of articles.
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- banner_728x90-txt-disp -->
+<ins class="adsbygoogle"
+     style="display:inline-block;width:728px;height:90px"
+     data-ad-client="ca-pub-2031545302097188"
+     data-ad-slot="8561880698"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 Lets get that output to show in the terminal prompt with a simple class method that just gets the values returned by “show interfaces brief” command.
 
 {% highlight bash %}
