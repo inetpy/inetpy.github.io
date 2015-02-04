@@ -23,6 +23,8 @@ tags:
 
 In the [previous article][1] (they’re split to make them easier to read) I talked about the theory and representation. How a properly formatted data structure and a non-formatted data structure look like. Here, we’re going to convert the output of the popular show ip route command into a “proper” data structure, and not just a string.
 
+<!--more-->
+
 ### (./python) THE CODE
 
 Again, any code “snippets” are not the full representation of the program. The full code is available on <a href="http://ipyandy.net/pnil/" target="_blank">github under my PNIL repo</a> and can be cloned, downloaded or forked.
