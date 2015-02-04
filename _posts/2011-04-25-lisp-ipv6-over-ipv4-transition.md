@@ -103,7 +103,7 @@ router lisp
  ipv6 map-resolver
  ipv6 alt-vrf LISP
  {% endhighlight %}
-
+ 
 Only the IPv6 relevant configuration and information will be shown throughout the rest of the blog post. This is the relevant Map Server / Map Resolver configuration. As you can see, there’s really not much to the configuration itself;
 
   * The sites are defined
