@@ -22,11 +22,13 @@ tags:
 This first post is dedicated to the first of the OSPF LSAs which is. Router (type 1),  I've met / interviewed people that know exactly what most OSPF LSA types are by the book. But present a small scenario and ask what type of LSA will be generated or seen and they stutter or stare into blank space. Hence it's not a true understanding of what these are, and I'll try to cover that in this post.
   
 Future posts will cover Network LSA (type 2), Network Summary LSA (type 3), ASBR summary LSA (type 4), Autonomous System External LSAs or just plain External LSAs (type 5), and NSSA External LSAs (type 7). But for now, lets just focus on the first one of these before going any deeper.
+
+<!--more-->
   
 Here's the diagram for the topology, nothing fancy, the frame cloud is setup as ospf network type point-to-multipoint to make it simple. The DR and BDR for each segment are predictable, R1 and R2 are always the DR and or BDR.
   
-##### OSPF Topology
-[<img id="ospf-001-w_rip.png" title="ospf-001-w_rip.png" alt="ospf-001-w_rip.png" src="{{ site.url }}/assets/images/ospf-001-w_rip.png" />][img_1]
+#### OSPF Topology ####
+<img id="ospf-001" title="ospf-001-w_rip" alt="ospf-001-w_rip" src="{{ site.url }}/assets/images/ospf-001-w_rip.png" />
   
 {% highlight bash %}
 r1#sh ip ospf database router
@@ -159,8 +161,7 @@ Number of TOS metrics: 0
 TOS 0 Metrics: 10
 {% endhighlight %}
   
-  <p>
- R5 sees R1 as the DR, currently R5 is configured to never become the DR for that network. And it advertises it's IP into that area from F0/0.125.
+R5 sees R1 as the DR, currently R5 is configured to never become the DR for that network. And it advertises it's IP into that area from F0/0.125.
 
 {% highlight bash %}
 Link connected to: a Stub Network
@@ -179,5 +180,3 @@ The main thing to take from this is, that a Router LSA (LSA Type 1) is generated
  I was going to include three LSA types per blog post, but the post as you can see can get out of hand in length. I decided to break each LSA up into it's own post and next one will contain OSPFs Network LSA (type 2).
 
  Feedback and or questions are always welcome
-
-[img_1]: {{ site.url }}/assets/images/ospf-001-w_rip.png
