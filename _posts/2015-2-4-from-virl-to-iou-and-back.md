@@ -28,7 +28,9 @@ If you're styding for CCIE or making quick config checks:
 	. My 16GB MBP struggles
 . No L2 support yet (not a big deal for new CCIEv5)
 . $200 for most (can be a bit high depending on usage)
+
 <!--more-->
+
 If you're building out a POC type network, VIRL is definitely the way to go, since it was deisgned to run on x86 platforms there's less bug vs configuration contention.
 
 VIRL does have:
