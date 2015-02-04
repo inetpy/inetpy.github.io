@@ -17,6 +17,8 @@ tags:
 
 First an foremost, I want to thank <a href="https://twitter.com/#!/ioshints" target="blank">Ivan Pepelnjak</a> of <a href="http://www.ipspace.net" target="blank">ipspace.net</a> for taking the time to read, correct and validate these concepts. Taking time out of his busy schedule to make sure this information is as accurate as possible.
 
+<!--more-->
+
 # Post Content {#postcontent}
 
 Yes, yet another post on IPv6 and how to transition into it, while keeping intact your IPv4 infrastructure. This may get old soon, or not, but I’m using this topic to also present a few cool features of **LISP** (Locator/ID Separation Protocol). If you haven’t heard of LISP by now, go visit <a href="http://blog.fryguy.net/2011/04/07/lisp-locator-identifier-separation-protocol-say-what/" target="blank">Jeff Fry’s blog</a> where he covers in some detail the workings of LISP with working examples. I’m concentrating more on using this to pass IPv6 traffic through an IPv4 only network, in other words, tying in disparate IPv6 islands over an IPv4 internet or Backbone network.
