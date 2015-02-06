@@ -1,27 +1,19 @@
 ---
 layout: page
-title: About me
+title: About Yandy
 permalink: /about/
+banner_image: about-me.jpg
+banner_image_alt: About Yandy
 ---
 
-Hi, I am Gayan Virajith, a developer (who works on the web) based on Sri Lanka. 
-Graduated from the University College Dublin (National University of Ireland). 
+Yandy's a Network Consultant, Architect and Engineer for a Cisco Gold Partner working on enterprise networks and data center networks. He focuses on core routing and switching and data center fabrics. Yandy has over 8 years of designing, architecting and deploying highly scalable network infrastructures. 
 
-I am Working for [template-factory.nl][tf] also known as [Mearch ICT][m].
-Prefer to serve with Php and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+### Contact Me
 
-### Contact me
+Say `Hello` at yr@ipyandy.net or find
+me on
 
-Find me on [Google+][google] / [Github][github] / [Twitter][Twitter] or just say `Hello` at 
-[gayanvirajith@gmail.com](gayanvirajith@gmail.com).
+---
 
+{% include social.html %}
 
-[tf]: http://template-factory.nl
-[m]: http://mearch.com
-[pw]: http://processwire.com
-[pwf]: http://processwire.com/talk
-[jekyll]: http://jekyllrb.com
-[github]: https://github.com/gayanvirajith
-[google]: https://plus.google.com/+GayanVirajith
-[twitter]: https://twitter.com/gayanvirajith
