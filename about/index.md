@@ -15,5 +15,5 @@ me on
 
 ---
 
-{% include social.html %}
+{% include social-share.html %}
 
