@@ -15,9 +15,7 @@ tags:
   - switching
   - vtp
 ---
-### The Devil!
-
-Yes, VTP is not the Devil itself, but it very well could be. I understand the "protect it" or make sure you know what you're doing arguments. Those are all fine and dandy, and the fact that you can't use VLANS > 1005 is not even the reason I hate it.
+The Devil! Yes, VTP is not the Devil itself, but it very well could be. I understand the "protect it" or make sure you know what you're doing arguments. Those are all fine and dandy, and the fact that you can't use VLANS > 1005 is not even the reason I hate it.
 
 ### Why Then?
 

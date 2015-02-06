@@ -14,9 +14,7 @@ tags:
   - OSPF Database
   - Summary LSA
 ---
-### Getting to Know the Summary LSA
-
-Well; what is the Summary LSA? It's an LSA flooded throughout the backbone area, which describes networks in other areas. Originated only by ABRs (Area Border Routers) and not flooded beyond the scope of the ABR's areas. What makes this LSA unique is, well, the SPF algorithm is not performed on it, the ABR simply adds the cost of the LSA + the cost to get to the neighboring ABR. This is a bit longer of a post than most my previous one’s, but hopefully it’s also useful for some.
+Well, what is the Summary LSA? It's an LSA flooded throughout the backbone area, which describes networks in other areas. Originated only by ABRs (Area Border Routers) and not flooded beyond the scope of the ABR's areas. What makes this LSA unique is, well, the SPF algorithm is not performed on it, the ABR simply adds the cost of the LSA + the cost to get to the neighboring ABR. This is a bit longer of a post than most my previous one’s, but hopefully it’s also useful for some.
 
 Take this very simplistic example below:  
 [<img class="alignnone" alt="" src="http://ipyandy.net/assets/images/7946942c53ea1113b14c25472599014a.png" />][1]

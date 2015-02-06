@@ -15,9 +15,7 @@ tags:
   - ospfv3
   - path mtu
 ---
-### Routing IPv6 in the Backbone With Just Link-Local Addresses
-
-Can it be done? Will IPv6 work in a network backbone that only has link-local addresses configured? For this test I’ll be using OSPFv3 but protocol itself shouldn’t matter much (on native broadcast/multicast capable interfaces) anyway. The topology I’ll be using is probably going to be the same one from now on, (or at the very least variations of the same) I kept changing it before. This is is thanks to <a title="“ioshints”" href="https://twitter.com/#!/ioshints" target="blank">Ivan Pepelnjak</a> and his awesome <a title="“webinars”" href="http://www.ioshints.info/Webinars" target="blank">webinars</a>, gave me the idea for a hack of his topology.
+Can routing an IPv6 Core on link-local addresses be done? Will IPv6 work in a network backbone that only has link-local addresses configured? For this test I’ll be using OSPFv3 but protocol itself shouldn’t matter much (on native broadcast/multicast capable interfaces) anyway. The topology I’ll be using is probably going to be the same one from now on, (or at the very least variations of the same) I kept changing it before. This is is thanks to <a title="“ioshints”" href="https://twitter.com/#!/ioshints" target="blank">Ivan Pepelnjak</a> and his awesome <a title="“webinars”" href="http://www.ioshints.info/Webinars" target="blank">webinars</a>, gave me the idea for a hack of his topology.
 
 ### Topology
 

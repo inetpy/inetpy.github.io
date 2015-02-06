@@ -16,8 +16,6 @@ tags:
   - mac
   - os x
 ---
-### AnyConnect Mac
-
 I find it annoying that sometimes, the list of remembered connections (which is just one), turns out to be a VPN you never use, or only used once. This is a problem I find only on the Mac AnyConnect client, (never tested the Linux version). The problem is, even if you establish another connection, when the client is re-opened it goes back to that original profile link.
 
 I was trying to figure out how to get rid of that connection when you open up the client, and have it remember the **last** connection.

@@ -1,25 +1,42 @@
-# Site settings
-title: "[IP]yandy"
-tagline: "Internetworking and Python for Engineers"
-email: yr@ipyandy.net
-description: "Internetworking and Python for Engineers"
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://ipyandy.net" # the base hostname & protocol for your site
-logourl: # Site logo
-author: "Yandy Ramirez"
-author_thumbnail: # Author avatar
-# Theme customization - please change from the defaults!
-theme:
-  # Color for sidebar bar, links, etc
-  highlight_color: "#205081" #205081" # "#272935"
-  # Social media links, leave blank to ignore
+# Harmony Jekyll theme general configurations 
+
+# Base URL
+baseurl: ""
+
+# Site live URL
+url: http://ipyandy.net
+
+# Localhost 
+# url: http://127.0.0.1:4000  
+
+# Harmony theme configuration. Please change accordingly.
+harmony:
+  name: IPyandy
+  # Little description about your site
+  description: "Internetworking and Python for Engineers"
+  # 'meta_description:' Write an awesome description for your new site here.
+  # It will appear in your document head meta (for Google search results) and 
+  # in your feed.xml site description.
+  meta_description: "Internetworking and Python for Engineers"
+  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
+  author: # Author details
+    name: Yandy Ramirez
+    email: yandyr@gmail.com
+    url: http://http://ipyandy.net
+
+  # Google Analytics key, leave blank to ignore
+  google_analytics_key: UA-xxxx-x
+
+  # Profile links, leave blank to ignore
   social: 
     github: IPyandy
     twitter: IPyandy
     facebook: darksoul135
-    gplus: 
-    # dribble: 
+    gplus: +YandyRamirez
+    dribble: 
     pinterest: 
+  # Toggle disclaimer in footer
+  show_disclaimer: true
 
   # Enable share buttons on post footer
   show_share_buttons: true
@@ -30,20 +47,20 @@ theme:
   # Disqus comments manager - shortname
   disqus_shortname: IPyandy
 
+  excerpt_separator: "<!--more-->"
+
   # Google Analytics/Webmaster key, leave blank to ignore
   google_analytics_key: "UA-10501449-11"
   google_webmaster_key: 
 
-# Build settings
-markdown: kramdown
+# Conversion / Build settings 
+markdown:    kramdown
+# This is how you put pygments config in jekyll 2.0 instead of pygments: true
+highlighter: pygments 
 
 # Permalinks
 permalink:        pretty
 
-# Pagination config
-paginate: 5
-
-# Files/Folders to be excluded from generated _site folder
 exclude: 
   - CNAME
   - Gemfile
@@ -53,9 +70,7 @@ exclude:
   - .sass-cache
   - Gemfile.lock
 
-excerpt_separator: "<!--more-->"
-
 # Sass conversion configs
 sass:
-  sass_dir: assets/css/_sass
-  style: :compressed
+    sass_dir: assets/css/_sass
+    style: :compressed

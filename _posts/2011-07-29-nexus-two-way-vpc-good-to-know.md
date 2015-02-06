@@ -18,8 +18,6 @@ tags:
   - mec
   - multi-chassis link aggregation
 ---
-# The Scenario {#thescenario}
-
 Quick overview of topology, two Nexus 7000s and two Nexus 5020s each with two 10Gig connections to each other. In other words, there&#8217;s a total of 40Gig between each switch, and they&#8217;re all in one vPC, like so;
 
 **Diagram**  

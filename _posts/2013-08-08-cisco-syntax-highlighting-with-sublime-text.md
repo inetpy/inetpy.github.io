@@ -16,7 +16,6 @@ tags:
   - syntax
   - syntax highlighting
 ---
-
 Here’s something I modified from the original version <a href="https://github.com/tunnelsup/sublime-cisco-syntax" target="blank">HERE</a>. If you use <a href="http://www.sublimetext.com/2" target="blank">Sublime Text 2/3</a> and work on Cisco equipment, you may find this cool.
 
 Follow the install directions bellow.

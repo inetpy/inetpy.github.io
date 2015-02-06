@@ -17,8 +17,6 @@ tags:
   - cisco ospf
   - cisco ospfv3
 ---
-### Overview
-
 In most cases, OSPFv3 behaves identical to good old OSPF which we all love; right? Except for some minor differences in certain LSAs, some new one’s and others that are the same LSA, but behave a bit different. The purpose of this article is to try and cover the firs three of these LSAs. The Router LSA, which has the same name as it’s OSPFv2 counterpart. The Intra-Area-Prefix LSA, which is new in OSPFv3. Last but not least, the Link specific LSA, which is also new in OSPFv3.
 
 Given this simple topology, where **R1** connects to **Core1** through a serial link, in area zero. **R1** also connects to **R2** via an ethernet segment in area twelve, we can begin analyzing the database.

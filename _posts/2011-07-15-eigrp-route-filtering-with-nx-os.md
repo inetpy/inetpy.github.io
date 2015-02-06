@@ -16,9 +16,7 @@ tags:
   - nx-os
   - route filtering
 ---
-### Overview
-
-So we all know how to filter EIGRP routes; right? create a prefix-list or access-list then apply that to the routing process. You can also do **offset-lists**, all that good stuff. This is where the good part comes in; and where the frustration sometimes sets in as well. I really wish BUs within Cisco will talk more, and standardize the way things are done. There’s the whole summary routes are done under the interface in IOS, so is authentication. Then filtering is done under the routing process and so forth. Again, this is for vanilla IOS, then comes NX-OS, which at the CLI level looks allot like IOS.
+We all know how to filter EIGRP routes; right? create a prefix-list or access-list then apply that to the routing process. You can also do **offset-lists**, all that good stuff. This is where the good part comes in; and where the frustration sometimes sets in as well. I really wish BUs within Cisco will talk more, and standardize the way things are done. There’s the whole summary routes are done under the interface in IOS, so is authentication. Then filtering is done under the routing process and so forth. Again, this is for vanilla IOS, then comes NX-OS, which at the CLI level looks allot like IOS.
 <!--more-->
 
 Before going into detail, let’s just see how this is done in IOS for those that may not know or remember.
