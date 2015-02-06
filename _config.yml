@@ -47,7 +47,7 @@ harmony:
   # Disqus comments manager - shortname
   disqus_shortname: IPyandy
 
-  excerpt_separator: "<!--more-->"
+  # excerpt_separator: "<!--more-->"
 
   # Google Analytics/Webmaster key, leave blank to ignore
   google_analytics_key: "UA-10501449-11"
