@@ -1,76 +1,69 @@
-# Harmony Jekyll theme general configurations 
+title:            Site Title
+description:      Describe your website here.
+disqus_shortname: hpstrtheme
+reading_time:     true
+words_per_minute: 200
+# Your site's domain goes here (eg: //mmistakes.github.io, http://mademistakes.com, etc)
+# When testing locally leave blank or use http://localhost:4000
+url:
 
-# Base URL
-baseurl: ""
+# Owner/author information
+owner:
+  name:           Your Name
+  avatar:         avatar.jpg
+  bio:            "Your bio goes here. It shouldn't be super long but a good two sentences or two should suffice."
+  email:          you@email.com
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        
+  facebook:       
+  github:         
+  stackexchange:  
+  linkedin:       
+  instagram:      
+  flickr:         
+  tumblr:         
+  # google plus id, include the '+', eg +mmistakes
+  google_plus:    +yourid
 
-# Site live URL
-url: http://ipyandy.net
+# Background image to be tiled on all pages
+background: 
 
-# Localhost 
-# url: http://127.0.0.1:4000  
+# Analytics and webmaster tools stuff goes here
+google_analytics:   
+google_verify:      
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
 
-# Harmony theme configuration. Please change accordingly.
-harmony:
-  name: IPyandy
-  # Little description about your site
-  description: "Internetworking and Python for Engineers"
-  # 'meta_description:' Write an awesome description for your new site here.
-  # It will appear in your document head meta (for Google search results) and 
-  # in your feed.xml site description.
-  meta_description: "Internetworking and Python for Engineers"
-  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
-  author: # Author details
-    name: Yandy Ramirez
-    email: yandyr@gmail.com
-    url: http://ipyandy.net
-
-  # Google Analytics key, leave blank to ignore
-  google_analytics_key: UA-xxxx-x
-
-  # Profile links, leave blank to ignore
-  social: 
-    github: IPyandy
-    twitter: IPyandy
-    facebook: darksoul135
-    gplus: +YandyRamirez
-    dribble: 
-    pinterest: 
-  # Toggle disclaimer in footer
-  show_disclaimer: true
-
-  # Enable share buttons on post footer
-  show_share_buttons: true
-
-  # Show author picure, name and social links on post footer
-  show_author_info: true
-
-  # Disqus comments manager - shortname
-  disqus_shortname: IPyandy
-
-  # excerpt_separator: "<!--more-->"
-
-  # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: "UA-10501449-11"
-  google_webmaster_key: 
-
-# Conversion / Build settings 
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+highlighter: pygments
 markdown:    kramdown
-# This is how you put pygments config in jekyll 2.0 instead of pygments: true
-highlighter: pygments 
-
-# Permalinks
-permalink:        pretty
-
-exclude: 
-  - CNAME
-  - Gemfile
-  - Rakefile
-  - README.md
-  - .gitignore
-  - .sass-cache
-  - Gemfile.lock
-
-# Sass conversion configs
+gems:
+  - jekyll-sitemap
 sass:
-    sass_dir: assets/css/_sass
-    style: :compressed
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: true
+
+  coderay:
+    coderay_line_numbers: nil
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
