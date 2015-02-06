@@ -38,10 +38,10 @@ This is still somewhat **beta**, any updates I’ll publish here
 
 **Sample One**
 
-[<img id="img1" title="Sample One" alt="Sample One" src="http://ipyandy.net/images/subsample1.png" width="637" height="244" />][4]
+[<img id="img1" title="Sample One" alt="Sample One" src="http://ipyandy.net/assets/images/subsample1.png" width="637" height="244" />][4]
 
 **Sample Two** 
-[ <img id="img2" title="Sample Two" alt="Sample Two" src="http://ipyandy.net/images/subsample2.png" />][5]
+[ <img id="img2" title="Sample Two" alt="Sample Two" src="http://ipyandy.net/assets/images/subsample2.png" />][5]
 
  [4]: http://ipyandy.net/images/subsample1.png
  [5]: http://ipyandy.net/images/subsample2.png
