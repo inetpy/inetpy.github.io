@@ -51,6 +51,8 @@ permalink:   /:categories/:title/
 # Amount of post to show on home page
 paginate: 5
 
+excerpt_separator: "<!--more-->"
+
 kramdown:
   auto_ids: true
   footnote_nr: 1
