@@ -2,7 +2,7 @@
 title: 'Parsing a Routing Table with Python - Part 2'
 author: Yandy
 layout: post
-banner_image: python_banner_02.jpeg
+image: python_banner_02.jpeg
 permalink: /2014/04/parsing-a-routing-table-with-python-part2
 categories:
   - Coding
