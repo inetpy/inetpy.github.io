@@ -44,7 +44,35 @@ layout: none
           {% if page.twitter_image %}
               <meta name="twitter:image" content="{{ site.url }}/images/{{ page.twitter_image }}" /> 
           {% endif %}
-        <description>{{ post.content | xml_escape }}</description>
+
+          {% if post.title %}
+            <meta name="twitter:title" content="{{ post.title }}">
+          {% else %}
+            <meta name="twitter:title" content="{{ site.title }}">
+          {% endif %}
+          {% if post.url %}
+            <meta name="twitter:url" content="{{ site.url }}{{ post.url }}">
+          {% endif %}
+          {% if post.description %}
+            <meta name="twitter:description" content="{{ post.description }}">
+          {% else %}
+            <meta name="twitter:description" content="{{ site.description }}">
+          {% endif %}
+          {% if post.image %}
+            <meta name="twitter:image:src" content="{{ site.url }}/images/{{ post.image }}">
+              <image>
+                <url>{{ site.url }}/images/{{ post.image }}</url>
+              </image>
+          {% else %}
+            <meta name="twitter:image:src" content="{{ site.url }}/images/default.png">
+              <image>
+                <url>{{ site.url }}/images/default.png </url>
+              </image>
+          {% endif %}
+          {% if post.twitter_image %}
+              <meta name="twitter:image" content="{{ site.url }}/images/{{ post.twitter_image }}" /> 
+          {% endif %}
+        <description>{{ post.description | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
