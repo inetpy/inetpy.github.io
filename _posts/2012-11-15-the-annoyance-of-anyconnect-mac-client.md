@@ -7,6 +7,7 @@ dsq_thread_id:
   - 1247404336
 categories:
   - Mac OS X
+  - Networking
 tags:
   - annyconnect os x
   - anyconnect

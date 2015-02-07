@@ -6,7 +6,7 @@ permalink: /2011/03/ipv4-multi-vrf-route-leaking
 dsq_thread_id:
   - 2479801914
 categories:
-  - MPLS
+  - Uncategorized
 tags:
   - bgp
   - mpls

@@ -10,5 +10,10 @@ Yandy's a Network Consultant, Architect and Engineer for a Cisco Gold Partner wo
 
 ### Contact Me
 
-Say `Hello` at yr@ipyandy.net
+Say `Hello` at yr@ipyandy.net or find
+me on
+
+---
+
+{% include social.html %}
 
