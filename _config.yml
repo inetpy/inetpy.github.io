@@ -77,7 +77,7 @@ kramdown:
     coderay_css: class
 
 prose:
-  siteurl: 'http://ipyandy.net
+  siteurl: 'http://ipyandy.net'
   relativeLinks: 'http://ipyandy.net/links.jsonp'
   media: 'images/post'
   metadata:
