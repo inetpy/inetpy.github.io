@@ -34,10 +34,12 @@ layout: none
             <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">
               <image>
                 <url>{{ site.url }}/images/{{ page.image }}</url>
+              </image>
           {% else %}
             <meta name="twitter:image:src" content="{{ site.url }}/images/default.png">
               <image>
                 <url>{{ site.url }}/images/default.png </url>
+              </image>
           {% endif %}
           {% if page.twitter_image %}
               <meta name="twitter:image" content="{{ site.url }}/images/{{ page.twitter_image }}" /> 
