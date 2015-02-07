@@ -4,6 +4,7 @@ author: Yandy
 layout: post
 image: jekyll-1.jpg
 twitter_image: jekyll-1-twitter.jpg
+description: 'My move from Wordpress self hosted to Jekyll on Github'
 date: 2015-02-07 15:21:00
 permalink: 2015/02/away-from-wordpress/
 categories:
