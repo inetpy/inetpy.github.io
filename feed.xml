@@ -15,15 +15,19 @@ layout: none
       <item>
         <title>{{ post.title | xml_escape }}</title>
           {% if page.image %}
-              <image><url>{{ site.url }}/images/{{ page.image }}</url></image>
+              <media:content url="{{ site.url }}/images/{{ page.image }}"
+                type="image/jpeg" />
           {% else %}
-              <image><url>{{ site.url }}/images/default.png </url></image>
+              <media:content url="{{ site.url }}/images/default.png"
+                type="image/jpeg" />
           {% endif %}
 
           {% if post.image %}
-              <image><url>{{ site.url }}/images/{{ post.image }}</url></image>
+              <media:content url="{{ site.url }}/images/{{ post.image }}"
+                type="image/jpeg" />
           {% else %}
-              <image><url>{{ site.url }}/images/default.png </url></image>
+              <media:content url="{{ site.url }}/images/default.png"
+                type="image/jpeg" />
           {% endif %}
 
         <description>{{ post.description | xml_escape }}</description>
