@@ -9,6 +9,9 @@ url: http://ipyandy.net
 # Title
 title: IPyandy
 
+# Little description about your site
+description: "Internetworking and Python for Engineers"
+
 # Localhost 
 # url: http://127.0.0.1:4000  
 
