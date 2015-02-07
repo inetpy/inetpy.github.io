@@ -23,7 +23,7 @@ owner:
   avatar:         yandy.jpeg
   email:          yandyr@gmail.com
   # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:    MIT&#39;12 EECS Alum. UPenn&#39;15 ESE PhD Candidate. Hossain Mohammad Faysal is an Electrical Engineer and a Mathematician based in Philadelphia, Pennsylvania. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
+  description:  "Internetworking and Python for Engineers"
   # Social networking links used in footer. Update and remove as you like.
   twitter:        IPyandy
   facebook:       darksoul135
@@ -34,7 +34,7 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   "UA-10501449-11"
-google_verify:      "JK0nkBtXQdnSsTVouQvjuGrh0R_ub91t4__fI8QSEVk"
+google_verify:     
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
