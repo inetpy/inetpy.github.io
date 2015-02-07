@@ -1,57 +1,22 @@
----
-layout: default
----
-
-<div class="page-content wc-container">
-	
-	<div class="post">
-		<h1>{{ page.title }}</h1>
-		<p class="post-meta">
-			{% if (page.categories.size > 0 %}
-      <span class="categories">
-      {{ page.categories | array_to_sentence_string }}
-      </span> |
-	    {% endif %}
-	    <span class="post-date">
-    	{{ page.date | date: "%b %-d, %Y" }} 
-	    </span>
-		</p>		
-		<div class="post">
-			{{ content }}
-		</div>
-	</div>
-
-
-	{% if site.related_posts %}
-	<div class="related">
-		<h4>Related Posts</h2>
-		<ul class="posts">
-		    {% for post in site.related_posts limit:3 %}
-		    <li>
-			  <span>{{ post.date | date_to_string }} &raquo;</span>
-			  <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">{{ post.title }}</a>
-		    </li>
-		    {% endfor %}
-		</ul>
-	</div>
-	{% endif %}
-
-	<div class="post-footer">
-		<div class="column-1">
-			{% if page.previous %}
-				<a href="{{page.previous.url | prepend: site.baseurl | prepend: site.url }}"><< Older</a>
-			{% else %}
-				<span><< Older</span>
-			{% endif %}
-		</div>
-		<div class="column-2"><a href="{{ '/' | prepend: site.baseurl | prepend: site.url }} ">Home</a></div>
-		<div class="column-3">
-			{% if page.next %}
-				<a href="{{ page.next.url | prepend: site.baseurl | prepend: site.url }}">Newer >></a>
-			{% else %}
-				<span>Newer >></span>
-			{% endif %}
-		</div>
-	</div>
-</div>
- 
+<!doctype html>
+<html class="no-js" lang="en">
+{% include head.html %}
+{% if site.dropcap %}{% if page.dropcap != false %}<style type="text/css">@media only screen and (min-width:43.75em){.notepad-post-content div>p:first-child:first-letter{float: left; font-size: 4.875rem; line-height: 3.750rem; padding-top: 0.375rem; padding-right: 0.375rem; font-family:serif}}</style>{% endif %}{% endif %}
+<body class="post-template">
+{% if page.imagefeature %}{% include headerpostcover.html %}{% else %}{% include headerpostsimple.html %}{% endif %}
+    <article class="notepad-post-content post">
+        <div>
+            <div class="paddings">
+                {{ content }}
+            </div>
+        </div>
+    </article>
+    <div class="cf"></div>
+{% if site.share %}{% include share.html %}{% endif %}
+{% include author.html %}
+<div class="cf"></div>
+{% if site.disqus_shortname and page.comments == true %}{% include disqus.html %}{% endif %}
+{% include footer.html %}
+{% include scripts.html %}
+</body>
+</html>

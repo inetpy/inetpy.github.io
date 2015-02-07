@@ -1,79 +1,208 @@
-# Harmony Jekyll theme general configurations 
+title:            [IP]yandy
+description:      "Internetworking and Python for Engineers"
+locale:           en_US
+logo:             logo.png
+disqus_shortname: ipyandy
+share:            true
+readtime:		  true
+wpm:			  210
+dropcap:		  true
+theme:			  blue
+nprogress:        true
+header_bg:        boat-header.jpg
+author_bg:		  newyork.jpg
+# Change url to your domain. Leave localhost server or blank when working locally.
+# or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
+# whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
+url:              http://ipyandy.net
 
-# Base URL
-baseurl: ""
+# Owner/author information
+owner:
+  name:           Yandy Ramirez
+  avatar:         yandy.jpeg
+  email:          yr@ipyandy.net
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
+  description:    MIT&#39;12 EECS Alum. UPenn&#39;15 ESE PhD Candidate. Hossain Mohammad Faysal is an Electrical Engineer and a Mathematician based in Philadelphia, Pennsylvania. His interests are anything that&#8217;s related to math, from math itself to programming languages to music to physics to engineering to philosophy.
+  # Social networking links used in footer. Update and remove as you like.
+  twitter:        IPyandy
+  facebook:       darksoul135
+  github:         IPyandy      
+  instagram:      yandy_r
+  # For Google Authorship https://plus.google.com/authorship
+  google_plus:    YandyRamirez
 
-# Site live URL
-url: http://ipyandy.net
+# Analytics and webmaster tools stuff goes here
+google_analytics:   "UA-10501449-11"
+google_verify:      "JK0nkBtXQdnSsTVouQvjuGrh0R_ub91t4__fI8QSEVk"
+# https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
+bing_verify:         
 
-# Title
-title: IPyandy
+# Links to include in footer navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+    external: false
+    icon: home
+  - title: Featured Posts
+    url: /featured
+  - title: Categories
+    url: /categories
+  - title: About
+    url: /about
 
-# Little description about your site
-description: "Internetworking and Python for Engineers"
-
-# Localhost 
-# url: http://127.0.0.1:4000  
-
-# Harmony theme configuration. Please change accordingly.
-harmony:
-  name: IPyandy
-  # Little description about your site
-  description: "Internetworking and Python for Engineers"
-  # 'meta_description:' Write an awesome description for your new site here.
-  # It will appear in your document head meta (for Google search results) and 
-  # in your feed.xml site description.
-  meta_description: "Internetworking and Python for Engineers"
-  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
-  author: # Author details
-    name: Yandy Ramirez
-    email: yandyr@gmail.com
-    url: http://ipyandy.net
-
-  # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: "UA-10501449-11"
-  google_webmaster_key: 
-
-  # Profile links, leave blank to ignore
-  social: 
-    github: IPyandy
-    twitter: IPyandy
-    facebook: darksoul135
-    gplus: +YandyRamirez
-    dribble: 
-    pinterest: 
-  # Toggle disclaimer in footer
-  show_disclaimer: true
-
-  # Enable share buttons on post footer
-  show_share_buttons: true
-
-  # Show author picure, name and social links on post footer
-  show_author_info: true
-
-  # Disqus comments manager - shortname
-  disqus_shortname: IPyandy
-
-  # excerpt_separator: "<!--more-->"
-
-# Conversion / Build settings 
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    America/New_York
+future:      true
+highlighter: pygments
 markdown:    kramdown
-# This is how you put pygments config in jekyll 2.0 instead of pygments: true
-highlighter: pygments 
+paginate:    5
+paginate_path: "page:num"
 
-# Permalinks
-permalink:        pretty
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title
 
-exclude: 
-  - CNAME
-  - Gemfile
-  - Rakefile
-  - README.md
-  - .gitignore
-  - .sass-cache
-  - Gemfile.lock
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
 
-# Sass conversion configs
-sass:
-    sass_dir: assets/css/_sass
-    style: :compressed
+  coderay:
+    coderay_line_numbers: 
+    coderay_line_numbers_start: 1
+    coderay_tab_width: 4
+    coderay_bold_every: 10
+    coderay_css: class
+
+prose:
+  siteurl: 'http://ipyandy.net
+  relativeLinks: 'http://ipyandy.net/links.jsonp'
+  media: 'images/post'
+  metadata:
+    _posts:
+      - name: "published"
+        field:
+          label: "Published"
+          element: "checkbox"
+          value: "true"
+      - name: "layout"
+        field:
+          element: "hidden"
+          label: "Layout"
+          value: "post"
+      - name: "title"
+        field:
+          label: "Title"
+          element: "text"
+          value: "An Awesome Headline!"
+      - name: "description"
+        field:
+          element: "text"
+          label: "Description"
+          placeholder: "Enter Post Description"
+      - name: "modified"
+        field:
+          element: "text"
+          label: "Has this page been modified?"
+          placeholder: "YYYY-MM-DD"
+      - name: "categories"
+        field:
+          element: "multiselect"
+          label: "Add categories"
+          placeholder: "Choose categories"
+          value: personal
+          options:
+            - name: "Personal"
+              value: personal
+            - name: "Engineering"
+              value: engineering
+            - name: "Mathematics"
+              value: mathematics
+            - name: "Physics"
+              value: physics
+            - name: "Psychology"
+              value: psychology
+            - name: "Photography"
+              value: photography
+            - name: "Interesting"
+              value: interesting
+            - name: "Web-Development"
+              value: webdevelopment
+          alterable: true
+      - name: "tags"
+        field:
+          element: "text"
+          label: "Tags"
+          placeholder: "Enter tags, separated by spaces"
+      - name: "imagefeature"
+        field:
+          element: "text"
+          label: "Featured Image"
+          placeholder: "somefile.jpg"
+      - name: "covereffect"
+        field:
+          element: "select"
+          label: "Select Cover Effect"
+          placeholder: "Choose Type"
+          value:
+          options:
+            - name: "None"
+              value: 
+            - name: "slice"
+              value: slice
+            - name: "push"
+              value: push
+      - name: "location"
+        field:
+          element: "text"
+          label: "Location"
+          placeholder: "Some Place"
+      - name: "locationgps"
+        field:
+          element: "text"
+          label: "Location GPS point"
+          placeholder: "long, lat"
+      - name: "mathjax"
+        field:
+          element: "checkbox"
+          label: "MathJax"
+          value: false
+      - name: "featured"
+        field:
+          element: "checkbox"
+          label: "Featured?"
+          value: false
+      - name: "comments"
+        field:
+          element: "checkbox"
+          label: "Comments"
+          value: false
+      - name: "chart"
+        field:
+          element: "checkbox"
+          label: "Chart?"
+          value: false
+      - name: "charttype"
+        field:
+          element: "select"
+          label: "Select Chart Type"
+          placeholder: "Choose Type"
+          value:
+          options:
+            - name: "None"
+              value: 
+            - name: "pie"
+              value: pie
+            - name: "serial"
+              value: serial
+      - name: "jquery"
+        field:
+          element: "checkbox"
+          label: "Require JQuery?"
+          value: false
+
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "CNAME", "Gemfile", "Capfile", "Gemfile.lock", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
