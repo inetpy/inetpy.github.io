@@ -32,21 +32,16 @@ layout: none
           {% endif %}
           {% if page.image %}
             <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">
+              <image>
+                <url>{{ site.url }}/images/{{ page.image }}</url>
           {% else %}
             <meta name="twitter:image:src" content="{{ site.url }}/images/default.png">
+              <image>
+                <url>{{ site.url }}/images/default.png </url>
           {% endif %}
           {% if page.twitter_image %}
               <meta name="twitter:image" content="{{ site.url }}/images/{{ page.twitter_image }}" /> 
           {% endif %}
-        {% if page.image %}
-            <image="image:src" content="{{ site.url }}/images/{{ page.image }}">
-            <feedImage="image:src" content="{{ site.url }}/images/{{ page.image }}">
-            <entryImageUrl="image:src" content="{{ site.url }}/images/{{ page.image }}">
-          {% else %}
-            <image="image:src" content="{{ site.url }}/images/default.png">
-            <feedImage="image:src" content="{{ site.url }}/images/default.png">
-            <entryImageUrl="image:src" content="{{ site.url }}/images/default.png">
-        {% endif %}
         <description>{{ post.content | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
