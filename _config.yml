@@ -22,8 +22,8 @@ owner:
   name:           Yandy Ramirez
   avatar:         yandy.jpeg
   email:          yandyr@gmail.com
-  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii to encode your description into XML string
-  description:  "Internetworking and Python for Engineers"
+  # Use the coder's toolbox at http://coderstoolbox.net/string/#!encoding=xml&action=encode&charset=us_ascii
+  description:  
   # Social networking links used in footer. Update and remove as you like.
   twitter:        IPyandy
   facebook:       darksoul135
@@ -34,7 +34,7 @@ owner:
 
 # Analytics and webmaster tools stuff goes here
 google_analytics:   "UA-10501449-11"
-google_verify:     
+google_verify:      "JK0nkBtXQdnSsTVouQvjuGrh0R_ub91t4__fI8QSEVk"
 # https://ssl.bing.com/webmaster/configure/verify/ownership Option 2 content= goes here
 bing_verify:         
 
