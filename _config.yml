@@ -44,7 +44,7 @@ harmony:
     pinterest: 
     instagram: yandy_r
   # Toggle disclaimer in footer
-  show_disclaimer: true
+  show_disclaimer: false
 
   # Enable share buttons on post footer
   show_share_buttons: true
