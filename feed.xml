@@ -16,14 +16,18 @@ layout: none
         <title>{{ post.title | xml_escape }}</title>
           {% if page.image %}
               <image><url>{{ site.url }}/images/{{ page.image }}</url></image>
+              <EntryImageUrl><url>{{ site.url }}/images/{{ page.image }}</url></EntryImageUrl>
           {% else %}
               <image><url>{{ site.url }}/images/default.png </url></image>
+              <EntryImageUrl><url>{{ site.url }}/images/default.png </url></EntryImageUrl>
           {% endif %}
 
           {% if post.image %}
               <image><url>{{ site.url }}/images/{{ post.image }}</url></image>
+              <EntryImageUrl><url>{{ site.url }}/images/{{ post.image }}</url></EntryImageUrl>
           {% else %}
               <image><url>{{ site.url }}/images/default.png </url></image>
+              <EntryImageUrl><url>{{ site.url }}/images/default.png </url></EntryImageUrl>
           {% endif %}
 
         <description>{{ post.description | xml_escape }}</description>
