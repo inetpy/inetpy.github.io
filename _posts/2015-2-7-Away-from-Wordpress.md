@@ -2,8 +2,8 @@
 title: 'Away from Wordpress to Jekyll on Github'
 author: Yandy
 layout: post
-image:
-twitter_image:
+image: jekyll-1.jpg
+twitter_image:jekyll-1-twitter.jpg
 date: 2015-02-07 15:21:00
 permalink: 2015/02/away-from-wordpress/
 categories:
