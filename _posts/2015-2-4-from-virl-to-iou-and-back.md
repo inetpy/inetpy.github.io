@@ -2,6 +2,8 @@
 title: 'From VIRL to IOU and Back'
 author: Yandy
 layout: post
+image: logo_cisco1.jpg
+twitter_image: logo_cisco1.jpg
 banner_image: logo_cisco1.jpg
 date: 2015-02-04 13:53:01
 permalink: /2015/02/from-virl-to-iou-and-back
