@@ -69,9 +69,9 @@ layout: none
                 <url>{{ site.url }}/images/default.png </url>
               </image>
           {% endif %}
-          {% if post.twitter_image %}
+          <!-- {% if post.twitter_image %}
               <meta name="twitter:image" content="{{ site.url }}/images/{{ post.twitter_image }}" /> 
-          {% endif %}
+          {% endif %} -->
         <description>{{ post.description | xml_escape }}</description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
