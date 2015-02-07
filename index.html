@@ -1,6 +1,30 @@
 ---
 layout: default
 ---
+<meta name="twitter:card" content="summary">
+<meta name="twitter:site" content="@IPyandy">
+<meta name="twitter:creator" content="@IPyandy">
+{% if page.title %}
+  <meta name="twitter:title" content="{{ page.title }}">
+{% else %}
+  <meta name="twitter:title" content="{{ site.title }}">
+{% endif %}
+{% if page.url %}
+  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+{% endif %}
+{% if page.description %}
+  <meta name="twitter:description" content="{{ page.description }}">
+{% else %}
+  <meta name="twitter:description" content="{{ site.description }}">
+{% endif %}
+{% if page.image %}
+  <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">
+{% else %}
+  <meta name="twitter:image:src" content="{{ site.url }}/images/default.png">
+{% endif %}
+{% if page.twitter_image %}
+    <meta name="twitter:image" content="{{ site.url }}/images/{{ page.twitter_image }}" /> 
+{% endif %}
 <div id="home" class="page-content wc-container">
 	<div class="posts">
   		{% for post in site.posts limit:10 %}
