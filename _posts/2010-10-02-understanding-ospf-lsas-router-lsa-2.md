@@ -7,7 +7,6 @@ dsq_thread_id:
   - 2479863838
 categories:
   - Networking
-  - OSPF
 tags:
   - ccie
   - cisco

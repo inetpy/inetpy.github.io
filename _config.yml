@@ -15,6 +15,7 @@ author_bg:		  newyork.jpg
 # or use the hint from http://jekyllrb.com/docs/github-pages/ to keep this the same 
 # whether working locally or remotely. Start Jekyll with: jekyll serve --baseurl ''
 url:              http://ipyandy.net
+baseurl: ""
 
 # Owner/author information
 owner:
@@ -52,7 +53,7 @@ links:
     url: /about
 
 # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
-timezone:    America/New_York
+timezone:    "America/New_York"
 future:      true
 highlighter: pygments
 markdown:    kramdown
