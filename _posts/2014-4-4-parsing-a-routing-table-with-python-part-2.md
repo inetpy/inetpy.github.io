@@ -4,6 +4,7 @@ author: Yandy
 layout: post
 image: python_banner_02.jpeg
 twitter_image: python_banner_02.jpeg
+description: 'Using python to get contents of a routing table part 2'
 permalink: /2014/04/parsing-a-routing-table-with-python-part2
 categories:
   - Coding
