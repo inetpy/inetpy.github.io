@@ -1,17 +1,17 @@
 <div class="custom-social-buttons">      
-<div class="share-buttons-label">
-    <span>Share on</span>
-</div>
-<div class="custom-social-button twitter">
-    <a id="twitter-link" href="#"><i class="socicon-twitter-bird"></i></a>
-</div>
-<div class="custom-social-button linkedin">
-    <a id="linkedin-link" href="#"><i class="socicon-linkedin"></i></a>
- </div>
- <div class="custom-social-button googleplus">
-     <a id="googleplus-link" href="#"><i class="socicon-gplus"></i></a>
- </div>
- <script type="text/javascript">
+    <div class="share-buttons-label">
+        <span>Share on</span>
+    </div>
+    <div class="custom-social-button twitter">
+        <a id="twitter-link" href="#"><i class="socicon-twitter-bird"></i></a>
+    </div>
+    <div class="custom-social-button linkedin">
+        <a id="linkedin-link" href="#"><i class="socicon-linkedin"></i></a>
+     </div>
+     <div class="custom-social-button googleplus">
+         <a id="googleplus-link" href="#"><i class="socicon-gplus"></i></a>
+     </div>
+    <script type="text/javascript">
     window.onload = function(){             
         var blogDomain = encodeURIComponent("{{ site.url }}");
         var pageTitleSpaces = encodeURIComponent("{{ page.title }}") + "&amp;";
@@ -39,7 +39,7 @@
         var googlePlusLink = document.getElementById("googleplus-link");
         googlePlusLink.onclick = function() {popUp=window.open(googlePlusUrl, 'popupwindow', 'scrollbars=yes,width=600,height=400');popUp.focus();return false };
     };
-</script>
+    </script>
 </div>
 <div class="py2 post-footer">
   <img src="/images/me.jpeg" alt="Yandy Ramirez" class="avatar" />
