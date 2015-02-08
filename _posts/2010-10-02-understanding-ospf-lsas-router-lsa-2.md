@@ -3,6 +3,10 @@ title: Understanding OSPF LSAs (Router LSA)
 author: yandy
 layout: post
 permalink: 2010/10/understanding-ospf-lsas-router-lsa-2/
+image: generic_banner.jpg
+twitter_image: generic_banner.jpg
+description: 
+summary: This first post is dedicated to the first of the OSPF LSAs which is. Router (type 1),  I've met / interviewed people that know exactly what most OSPF LSA types are by the book. But present a small scenario and ask what type of LSA will be generated or seen and they stutter or stare into blank space. Hence it's not a true understanding of what these are, and I'll try to cover that in this post...
 dsq_thread_id:
   - 2479863838
 categories:
@@ -19,6 +23,10 @@ tags:
   - cisco ospf
   - lsa type 2
 ---
+<hr>
+![](http://ipyandy.net/images/generic_banner.jpg)
+<hr>
+
 This first post is dedicated to the first of the OSPF LSAs which is. Router (type 1),  I've met / interviewed people that know exactly what most OSPF LSA types are by the book. But present a small scenario and ask what type of LSA will be generated or seen and they stutter or stare into blank space. Hence it's not a true understanding of what these are, and I'll try to cover that in this post.
   
 Future posts will cover Network LSA (type 2), Network Summary LSA (type 3), ASBR summary LSA (type 4), Autonomous System External LSAs or just plain External LSAs (type 5), and NSSA External LSAs (type 7). But for now, lets just focus on the first one of these before going any deeper.

@@ -3,6 +3,10 @@ title: vPC and VSS features and Comparison
 author: yandy
 layout: post
 permalink: /2011/01/vpc-and-vss-features-and-comparison/
+image: generic_banner.jpg
+twitter_image: generic_banner.jpg
+description: 
+summary: Seems like other than IPv6 allot of the talk lately (in the Datacenter anyways) is about MEC, or multi-chassis etherchannel. Using something like this in the aggregation part of the Datacenter not just limited to physically stackable access switches, such as the Catalyst 3750s.
 categories:
   - Networking
 tags:
@@ -13,6 +17,10 @@ tags:
   - vpc
   - vss
 ---
+<hr>
+![](http://ipyandy.net/images/generic_banner.jpg)
+<hr>
+
 Seems like other than IPv6 allot of the talk lately (in the Datacenter anyways) is about MEC, or multi-chassis etherchannel. Using something like this in the aggregation part of the Datacenter not just limited to physically stackable access switches, such as the Catalyst 3750s. There's been plenty of posts about this subject, some of the best at Ivan's blog over at <a href="http://blog.ioshints.inf" target="_blank">ioshints.info</a>, but I thought I'll add my own thoughts and what I've come to learn.
 
 Bit of a disclaimer, this isn't exactly a primer, so some terms may be used and not defined.. allot of information on getting started on these technologies is available at the Cisco site.

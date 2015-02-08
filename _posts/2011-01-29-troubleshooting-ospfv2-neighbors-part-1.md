@@ -3,6 +3,10 @@ title: Troubleshooting OSPFv2 Neighbors (Part 1)
 author: yandy
 layout: post
 permalink: /2011/01/troubleshooting-ospfv2-neighbors-part-1
+image: generic_banner.jpg
+twitter_image: generic_banner.jpg
+description: 
+summary: Tackling one of the simplest OSPFv2 adjacency problems to the trained eye. Yet, it's really incredible how often it can escape even the most seasoned veteran. Getting right to the point, let's begin with the following scenario below:
 jabber_published:
   - 1296356918
 dsq_thread_id:
@@ -18,6 +22,10 @@ tags:
   - neighbors
   - routing
 ---
+<hr>
+![](http://ipyandy.net/images/generic_banner.jpg)
+<hr>
+
 Tackling one of the simplest OSPFv2 adjacency problems to the trained eye. Yet, it's really incredible how often it can escape even the most seasoned veteran. Getting right to the point, let's begin with the following scenario below:
 
 <a href="{{ site.url }}/assets/images/r8-r4.png"><img class="alignnone" initial initial;" src="{{ site.url }}/assets/images/r8-r4.png" alt="" width="" height="" /></a>

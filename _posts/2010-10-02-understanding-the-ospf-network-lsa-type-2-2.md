@@ -3,6 +3,10 @@ title: Understanding the OSPF Network LSA (Type 2)
 author: yandy
 layout: post
 permalink: /2010/10/understanding-the-ospf-network-lsa-type-2-2
+image: generic_banner.jpg
+twitter_image: generic_banner.jpg
+description: 
+summary: In this second part of our OSPF LSAs covering the Network LSA or otherwise known as Type 2 LSA. This is probably one of the easiest to understand. But there's no better way to tell, than to actually see it do it's thing...
 dsq_thread_id:
   - 2479834179
 categories:
@@ -15,6 +19,10 @@ tags:
   - ospf lsa
   - routing
 ---
+<hr>
+![](http://ipyandy.net/images/generic_banner.jpg)
+<hr>
+
 In this second part of our OSPF LSAs covering the Network LSA or otherwise known as Type 2 LSA. This is probably one of the easiest to understand. But there's no better way to tell, than to actually see it do it's thing.
   
 ### Description

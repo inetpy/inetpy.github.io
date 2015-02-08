@@ -3,6 +3,10 @@ title: Troubleshooting OSPFv2 Neighbors (Part2)
 author: yandy
 layout: post
 permalink: /2011/02/troubleshooting-ospfv2-neighbors-part2/
+image: ospf_banner_generic.jpg
+twitter_image: ospf_banner_generic.jpg
+description: 
+summary: This will seem very similar to t he last post, again going on simple. Things that can be overlooked if one is not careful, doesn't look at everything with a magnifying glass, and becomes over confident. Same scenario, routers, link and the same area as before, but again just a little bit of enough twist to have an issue.
 jabber_published:
   - 1296928848
 dsq_thread_id:
@@ -18,6 +22,9 @@ tags:
   - ospf neighbors
   - cisco
 ---
+--------------------------------------------------------------------------
+![](http://ipyandy.net/images/ospf_banner_generic.jpg)
+
 This will seem very similar to t he last post, again going on simple. Things that can be overlooked if one is not careful, doesn't look at everything with a magnifying glass, and becomes over confident. Same scenario, routers, link and the same area as before, but again just a little bit of enough twist to have an issue.
 
 The debugging commands pertain to OSPFv2, however, the same thing can happen with any other IGP that requires peering. I'll cover two different ways of really configuring the same mistake, or overlooking the same mistake by someone else.
