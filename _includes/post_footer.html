@@ -11,8 +11,7 @@
  <div class="custom-social-button googleplus">
      <a id="googleplus-link" href="#"><i class="socicon-gplus"></i></a>
  </div>
-</div>
-<script type="text/javascript">
+ <script type="text/javascript">
     window.onload = function(){             
         var blogDomain = encodeURIComponent("{{ site.url }}");
         var pageTitleSpaces = encodeURIComponent("{{ page.title }}") + "&amp;";
@@ -41,6 +40,7 @@
         googlePlusLink.onclick = function() {popUp=window.open(googlePlusUrl, 'popupwindow', 'scrollbars=yes,width=600,height=400');popUp.focus();return false };
     };
 </script>
+</div>
 <div class="py2 post-footer">
   <img src="/images/me.jpeg" alt="Yandy Ramirez" class="avatar" />
   <p>
