@@ -3,7 +3,7 @@ title: 'Away from Wordpress to Jekyll on Github'
 author: Yandy
 layout: post
 image: jekyll-1.jpg
-twitter_image: jekyll-1-twitter.jpg
+twitter_image: jekyll-1.jpg
 description: 'My move from Wordpress self hosted to Jekyll on Github'
 summary: Recently I seriously considered shutting down the blog. I wasn't writing as often as I wanted. It was costing money to keep up, the free services are really sub-par from what I've experienced. It wasn't a ton of money, but use vs cost wasn't justifiable really. 
 date: 2015-02-07 15:21:00
@@ -18,7 +18,7 @@ tags:
   - blogging
   - blog-platform
 ---
-
+![](http://ipyandy.net/images/jekyll-1.jpg)
 Recently I seriously considered shutting down the blog. I wasn't writing as often as I wanted. It was costing money to keep up, the free services are really sub-par from what I've experienced. It wasn't a ton of money, but use vs cost wasn't justifiable really. The Scott Lowe <a href="https://twitter.com/scott_lowe" target="_blank">@scott_lowe</a> published his <a href="http://blog.scottlowe.org/2015/01/06/the-story-behind-the-migration/" target="_blank">story on migrating to Jekyll on Github</a> and I found it interesting. 
 <!--more-->
 ### Why?
