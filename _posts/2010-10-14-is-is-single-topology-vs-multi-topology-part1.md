@@ -33,26 +33,32 @@ Today I'm covering a little topic that seems to trouble some people. Mainly beca
 The characteristics of all interfaces running IS-IS are shared, such as metrics and metric types. I always run **metric-style wide** for all interfaces running the protocol although narrow metrics are supported if IPv6 is used, wide metrics is advertised in the TLVs for IPv6. If you don't know what that is, I suggest reading up on IS-IS basics as this is not meant to be a primer to it. An interface running both IPv4 and IPv6 IS-IS will share it's metric, even if configured differently.
 
 Here's the topology we'll be looking at today. 
+<p></p>
 <a href="{{ site.url }}/assets/images/is-is.png"><img class="aligncenter" title="IS-IS" alt="" src="{{ site.url }}/assets/images/is-is.png" width="679" height="511" /></a>
 
 Let's concentrate on the serial link between R2 and R8 (S1/3 on each).
 
 **R2**
+<p></p>
 <a href="{{ site.url }}/assets/images/r2-s1-3.png"><img class="alignnone" title="r2" alt="" src="{{ site.url }}/assets/images/r2-s1-3.png" width="444" height="155" /></a>
 
 **R8**
+<p></p>
 <a href="{{ site.url }}/assets/images/r8-s1-3.png"><img class="alignnone" title="r8" alt="" src="{{ site.url }}/assets/images/r8-s1-3.png" width="442" height="144" /></a>
 
 You can see that both R2 and R8 are configured for a metric of 20 for IPv4, and a metric of 3 for IPv6, on their respective serial interfaces. However looking at the IS-IS routing table for both address-families reveals something interesting, (will only show one router) as the outcome is the same on both.
   </p>
   
 **R8 IS-IS Config**
+<p></p>
 <a href="{{ site.url }}/assets/images/r8-isis-config.png"><img class="alignnone" title="r8 isis config" alt="" src="{{ site.url }}/assets/images/r8-isis-config.png" width="296" height="50" /></a>
 
 **R8 IPv4 Routing Table (IS-IS)**
+<p></p>
 <a href="{{ site.url }}/assets/images/r8-ipv4-table.png"><img class="alignnone" title="R8-ipv4-table" alt="" src="{{ site.url }}/assets/images/r8-ipv4-table.png" width="403" height="74" /></a>
   
 **R8 IPv6 Routing Table (IS-IS)**
+<p></p>
 <a href="{{ site.url }}/assets/images/r8-ipv6-table.png"><img class="alignnone" title="r8-ipv6-table-isis" alt="" src="{{ site.url }}/assets/images/r8-ipv6-table.png" width="463" height="141" /></a>
 
 comparing the tables to the configuration above, you can see that although both protocols are configured to have different metrics. They actually share the same metric value through both L3 address-families.
