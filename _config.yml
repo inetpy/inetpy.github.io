@@ -20,6 +20,8 @@ show_related_posts: true
 show_post_footers:  false
 show_social_icons:  true
 
+excerpt_separator: "<!--more-->"
+
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname: ipyandy
