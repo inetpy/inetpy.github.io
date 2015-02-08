@@ -23,6 +23,8 @@ tags:
   - cisco python
   - arista python
 ---
+![](http://ipyandy.net/images/python_banner_01.jpeg)
+
 It's all in the API's, well, not exactly, not everything you want to get or parse is handed down in a nicely formatted XML file or JSON format. These file structures translate to some type of data structure, with relative ease. Be it a list/array a dictionary container or some sort of combination.
 
 <a href="http://www.arista.com/en" target="_blank">Arista Networks</a> has a robust API for their switches called eAPI. I wrote an intro article to eAPI not that long ago.I won’t speak for others yet, onePK from Cisco just went GA recently and still hashing it out.
