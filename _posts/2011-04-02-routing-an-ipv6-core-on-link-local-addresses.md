@@ -3,6 +3,10 @@ title: Routing an IPv6 Core on Link-Local Addresses
 author: yandy
 layout: post
 permalink: /2011/04/routing-an-ipv6-core-on-link-local-addresses
+image: ipv6_link-local_only.png
+twitter_image: ipv6_link-local_only.png
+description: Is it possible to route an IPv6 core network on link-local only? Step inside and read more.
+summary: Can routing an IPv6 Core on link-local addresses be done? Will IPv6 work in a network backbone that only has link-local addresses configured? For this test I’ll be using OSPFv3 but protocol itself shouldn’t matter much (on native broadcast/multicast capable interfaces) anyway. The topology I’ll be using is probably going to be the same one from now on, (or at the very least variations of the same) I kept changing it before. 
 dsq_thread_id:
   - 2479760750
 categories:
@@ -15,6 +19,8 @@ tags:
   - ospfv3
   - path mtu
 ---
+![](http://ipyandy.net/images/ipv6_link-local_only.png)
+
 Can routing an IPv6 Core on link-local addresses be done? Will IPv6 work in a network backbone that only has link-local addresses configured? For this test I’ll be using OSPFv3 but protocol itself shouldn’t matter much (on native broadcast/multicast capable interfaces) anyway. The topology I’ll be using is probably going to be the same one from now on, (or at the very least variations of the same) I kept changing it before. This is is thanks to <a title="“ioshints”" href="https://twitter.com/#!/ioshints" target="blank">Ivan Pepelnjak</a> and his awesome <a title="“webinars”" href="http://www.ioshints.info/Webinars" target="blank">webinars</a>, gave me the idea for a hack of his topology.
 
 ### Topology
