@@ -5,6 +5,7 @@ author:      Yandy Ramirez
 description: "Internetworking and Python for Engineers"
 baseurl:     ""
 url:         "http://ipyandy.net"
+# url: localhost:4000
 
 avatar: http://ipyandy.net/images/logo.png
 logo: http://ipyandy.net/images/logo.png
@@ -17,7 +18,7 @@ google_analytics: "UA-10501449-11"
 # Optional features
 animated:           false
 show_related_posts: true
-show_post_footers:  false
+show_post_footers:  true
 show_social_icons:  true
 
 excerpt_separator: "<!--more-->"
