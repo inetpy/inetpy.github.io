@@ -3,6 +3,10 @@ title: The Annoyance of AnyConnect Mac Client
 author: yandy
 layout: post
 permalink: /2012/11/the-annoyance-of-anyconnect-mac-client
+image: anyconnect.png
+twitter_image: anyconnect.png
+description: Anyconnect for Mac, sometimes annoys me!
+summary: I find it annoying that sometimes, the list of remembered connections (which is just one), turns out to be a VPN you never use, or only used once. This is a problem I find only on the Mac AnyConnect client, (never tested the Linux version).
 dsq_thread_id:
   - 1247404336
 categories:

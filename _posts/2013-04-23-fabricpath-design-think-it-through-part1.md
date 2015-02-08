@@ -3,6 +3,10 @@ title: 'Fabricpath Design, Think it Through! - part 1'
 author: yandy
 layout: post
 permalink: /2013/04/fabricpath-design-think-it-through-part1
+image: FabricPath.jpg
+twitter_image: FabricPath.jpg
+description: Designing fabricpath? Deploying fabricpath? Read on!
+summary: FabricPath is a Layer-2 routing architecture (yes L2 routing), using ISIS to build shortest path trees to destination bridges (using their bridge-id).
 dsq_thread_id:
   - 1231107620
 categories:
@@ -17,7 +21,7 @@ tags:
   - nexus 5000
   - nexus 7000
 ---
-FabricPath is a Layer&#8211;2 routing architecture (yes L2 routing), using ISIS to build shortest path trees to destination bridges (using their bridge-id). Cisco offers plenty of documents <a href="http://www.cisco.com/en/US/prod/collateral/switches/ps9441/ps9670/guide_c07-690079.html" target="blank">This is one of them</a> explaining in detail what FabricPath is. FabricPath (Cisco&#8217;s implementation of a non-standard TRILL implementation) completely eliminates spanning-tree from the FP links. 
+FabricPath is a Layer-2 routing architecture (yes L2 routing), using ISIS to build shortest path trees to destination bridges (using their bridge-id). Cisco offers plenty of documents <a href="http://www.cisco.com/en/US/prod/collateral/switches/ps9441/ps9670/guide_c07-690079.html" target="blank">This is one of them</a> explaining in detail what FabricPath is. FabricPath (Cisco&#8217;s implementation of a non-standard TRILL implementation) completely eliminates spanning-tree from the FP links. 
 
 FabricPath does require F1 or F2 line-cards in a Nexus 7000 series switch. It also requires an additional license called (ENHANCED_L2) for FabricPath only. 
 <!--more-->
