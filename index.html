@@ -1,63 +1,20 @@
 ---
 layout: default
 ---
-<meta name="twitter:card" content="summary">
-<meta name="twitter:site" content="@IPyandy">
-<meta name="twitter:creator" content="@IPyandy">
-{% if page.title %}
-  <meta name="twitter:title" content="{{ page.title }}">
-{% else %}
-  <meta name="twitter:title" content="{{ site.title }}">
-{% endif %}
-{% if page.url %}
-  <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
-{% endif %}
-{% if page.description %}
-  <meta name="twitter:description" content="{{ page.description }}">
-{% else %}
-  <meta name="twitter:description" content="{{ site.description }}">
-{% endif %}
-{% if page.image %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">
-{% else %}
-  <meta name="twitter:image:src" content="{{ site.url }}/images/default.png">
-{% endif %}
-{% if page.twitter_image %}
-    <meta name="twitter:image" content="{{ site.url }}/images/{{ page.twitter_image }}" /> 
-{% endif %}
-<div id="home" class="page-content wc-container">
-	<div class="posts">
-  		{% for post in site.posts limit:10 %}
-  			<div class="post">
-    			<h3 class="post-title">
-			      <a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}">
-			        {{ post.title }}
-			      </a>
-    			</h3>
 
-          <p class="post-meta">
-            {% if (post.categories.size > 0 %}
-            <span class="categories">
-            {{ post.categories | array_to_sentence_string }}
-            </span> |
-            {% endif %}
-            <span class="post-date">
-            {{ post.date | date: "%b %-d, %Y" }} 
-            </span>
-          </p>          
-    			    			
-  				<p>
-	  				{{ post.excerpt }}	
-  				</p>
-  				<p>
-  					<a href="{{ post.url | prepend: site.baseurl | prepend: site.url }}" title="{{ post.title}}">
-  						Read More
-					</a>
-  				</p>
-  			</div>
-  		{% endfor %}
-	</div>
-	<div class="post-footer">
-		<div class="column-full"><a href="{{ '/blog' | prepend: site.baseurl | prepend: site.url }}">Blog archive</a></div>
-	</div>
+<div class="home">
+
+  <div class="posts">
+    {% for post in paginator.posts %}
+      <div class="post">
+        <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+          <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+          <h3 class="h2 post-title">{{ post.title }}</h3>
+          <p class="post-summary">{{ post.summary }}</p>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+
+  {% include pagination.html %}
 </div>

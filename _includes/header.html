@@ -1,0 +1,35 @@
+<header class="site-header px2 px-responsive">
+  <div class="mt2 wrap">
+    <div class="measure">
+      <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
+      <nav class="site-nav right">
+        {% include navigation.html %}
+      </nav>
+      <div class="clearfix"></div>
+      {% if site.show_social_icons %}
+        {% include social_links.html %}
+      {% endif %}
+    </div>
+  </div>
+  {% if page.title %}
+        <meta name="twitter:title" content="{{ page.title }}">
+    {% else %}
+        <meta name="twitter:title" content="{{ site.title }}">
+    {% endif %}
+    {% if page.url %}
+        <meta name="twitter:url" content="{{ site.url }}{{ page.url }}">
+    {% endif %}
+    {% if page.description %}
+        <meta name="twitter:description" content="{{ page.description }}">
+    {% else %}
+        <meta name="twitter:description" content="{{ site.description }}">
+    {% endif %}
+    {% if page.image %}
+        <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">
+    {% else %}
+        <meta name="twitter:image:src" content="{{ site.url }}/images/default.png">
+    {% endif %}
+    {% if page.twitter_image %}
+      <meta name="twitter:image" content="{{ site.url }}/images/{{ page.twitter_image }}" /> 
+    {% endif %}
+</header>

@@ -1,85 +1,46 @@
-# Harmony Jekyll theme general configurations 
-
-# Base URL
-baseurl: ""
-
-# Site live URL
-url: http://ipyandy.net
-
-# Title
-title: "[IP]yandy"
-
-# Little description about your site
+# Site settings
+title:       "[IP]yandy"
+email:       yr@ipyandy.net
+author:      Yandy Ramirez
 description: "Internetworking and Python for Engineers"
+baseurl:     ""
+url:         "http://ipyandy.net"
 
 avatar: http://ipyandy.net/images/logo.png
 logo: http://ipyandy.net/images/logo.png
 image: http://ipyandy.net/images/logo.png
 twitter_image: http://ipyandy.net/images/logo.png
 
-# Localhost 
-# url: http://127.0.0.1:4000  
+# Google analytics
+google_analytics: "UA-10501449-11"
 
-# Harmony theme configuration. Please change accordingly.
-harmony:
-  name: "[IP]yandy"
-  # Little description about your site
-  description: "Internetworking and Python for Engineers"
-  # 'meta_description:' Write an awesome description for your new site here.
-  # It will appear in your document head meta (for Google search results) and 
-  # in your feed.xml site description.
-  meta_description: "Internetworking and Python for Engineers"
-  basetheme: theme-base-01 # pre defined thmes are darken, blue-water, redish.
-  author: # Author details
-    name: Yandy Ramirez
-    email: yandyr@gmail.com
-    url: http://ipyandy.net
+# Optional features
+animated:           false
+show_related_posts: true
+show_post_footers:  false
+show_social_icons:  true
 
-  # Google Analytics/Webmaster key, leave blank to ignore
-  google_analytics_key: "UA-10501449-11"
-  google_webmaster_key: "JK0nkBtXQdnSsTVouQvjuGrh0R_ub91t4__fI8QSEVk"
+# Disqus post comments
+# (leave blank to disable Disqus)
+disqus_shortname: ipyandy
 
-  # Profile links, leave blank to ignore
-  social: 
-    github: IPyandy
-    twitter: IPyandy
-    facebook: darksoul135
-    gplus: +YandyRamirez
-    dribble: 
-    pinterest: 
-    instagram: yandy_r
-  # Toggle disclaimer in footer
-  show_disclaimer: false
+# Social icons
+github_username: IPyandy
+stackoverflow_id:
+twitter_username: IPyandy
+google_plus_id: YandyRamirez
+linkedin_username:
+bitcoin_url:
+paypal_url:
+flattr_button:
 
-  # Enable share buttons on post footer
-  show_share_buttons: true
-
-  # Show author picure, name and social links on post footer
-  show_author_info: true
-
-  # Disqus comments manager - shortname
-  disqus_shortname: IPyandy
-
-  # excerpt_separator: "<!--more-->"
-
-# Conversion / Build settings 
-markdown:    kramdown
-# This is how you put pygments config in jekyll 2.0 instead of pygments: true
-highlighter: pygments 
-
-# Permalinks
-permalink:        pretty
-
-exclude: 
-  - CNAME
-  - Gemfile
-  - Rakefile
-  - README.md
-  - .gitignore
-  - .sass-cache
-  - Gemfile.lock
-
-# Sass conversion configs
+# Build settings
+markdown:     kramdown
+redcarpet:
+  extensions: ['smart', 'tables', 'with_toc_data']
+permalink:    pretty
+paginate:     3
 sass:
-    sass_dir: assets/css/_sass
-    style: :compressed
+  compressed: true
+gems:
+  - jekyll-sitemap
