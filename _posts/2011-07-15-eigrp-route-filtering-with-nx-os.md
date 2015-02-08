@@ -3,6 +3,10 @@ title: EIGRP Route Filtering with NX-OS
 author: yandy
 layout: post
 permalink: /2011/07/eigrp-route-filtering-with-nx-os
+image: generic_cisco.jpeg
+twitter_image: generic_cisco.jpeg
+description: Filter EIGRP routes just like IOS, but in NX-OS
+summary: We all know how to filter EIGRP routes; right? create a prefix-list or access-list then apply that to the routing process. You can also do **offset-lists**, all that good stuff. This is where the good part comes in; and where the frustration sometimes sets in as well. I really wish BUs within Cisco will talk more, and standardize the way things are done.
 dsq_thread_id:
   - 1235490767
 categories:

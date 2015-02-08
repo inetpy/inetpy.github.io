@@ -3,6 +3,10 @@ title: 'Nexus Two Way vPC Good to Know'
 author: yandy
 layout: post
 permalink: /2011/07/nexus-two-way-vpc-good-to-know
+image: vpc_001.jpg
+twitter_image: vpc_001.jpg
+description: Gotcha for deploying two way VPC
+summary: Quick overview of topology, two Nexus 7000s and two Nexus 5020s each with two 10Gig connections to each other. In other words, there&#8217;s a total of 40Gig between each switch, and they&#8217;re all in one vPC, like so.
 dsq_thread_id:
   - 1238231707
 categories:
@@ -18,7 +22,7 @@ tags:
   - mec
   - multi-chassis link aggregation
 ---
-Quick overview of topology, two Nexus 7000s and two Nexus 5020s each with two 10Gig connections to each other. In other words, there&#8217;s a total of 40Gig between each switch, and they&#8217;re all in one vPC, like so;
+Quick overview of topology, two Nexus 7000s and two Nexus 5020s each with two 10Gig connections to each other. In other words, there&#8217;s a total of 40Gig between each switch, and they&#8217;re all in one vPC, like so.
 
 **Diagram**  
 <img id="diagram" src="{{ site.url }}/assets/images/Two_Way_vPC.png" alt="Diagram" title="" />
