@@ -3,6 +3,10 @@ title: 'The OSPFv2 Network Summary LSA - Type-3'
 author: yandy
 layout: post
 permalink: /2011/03/getting-down-with-ospfv2s-network-summary-lsa
+image: ospf_banner_generic.jpg
+twitter_image: ospf_banner_generic.jpg
+description: We discuss the OSPFv2 Network Summary LSA (type-3) in detail.
+summary: Well, what is the Summary LSA? It's an LSA flooded throughout the backbone area, which describes networks in other areas. Originated only by ABRs (Area Border Routers) and not flooded beyond the scope of the ABR's areas. What makes this LSA unique is, well, the SPF algorithm is not performed on it, the ABR simply adds the cost of the LSA + the cost to get to the neighboring ABR.
 dsq_thread_id:
   - 2479813040
 categories:
@@ -14,6 +18,10 @@ tags:
   - OSPF Database
   - Summary LSA
 ---
+--------------------------------------------------------------------------
+![](http://ipyandy.net/images/ospf_banner_generic.jpg)
+--------------------------------------------------------------------------
+
 Well, what is the Summary LSA? It's an LSA flooded throughout the backbone area, which describes networks in other areas. Originated only by ABRs (Area Border Routers) and not flooded beyond the scope of the ABR's areas. What makes this LSA unique is, well, the SPF algorithm is not performed on it, the ABR simply adds the cost of the LSA + the cost to get to the neighboring ABR. This is a bit longer of a post than most my previous one’s, but hopefully it’s also useful for some.
 
 Take this very simplistic example below:  
