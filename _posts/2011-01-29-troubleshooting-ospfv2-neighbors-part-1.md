@@ -6,7 +6,7 @@ permalink: /2011/01/troubleshooting-ospfv2-neighbors-part-1
 image: generic_banner.jpg
 twitter_image: generic_banner.jpg
 description: 
-summary: Tackling one of the simplest OSPFv2 adjacency problems to the trained eye. Yet, it's really incredible how often it can escape even the most seasoned veteran. Getting right to the point, let's begin with the following scenario below:
+summary: Tackling one of the simplest OSPFv2 adjacency problems to the trained eye. Yet, it's really incredible how often it can escape even the most seasoned veteran. Getting right to the point, let's begin with the following scenario below...
 jabber_published:
   - 1296356918
 dsq_thread_id:
