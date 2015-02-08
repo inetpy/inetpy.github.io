@@ -6,6 +6,7 @@ image: python_banner_02.jpeg
 twitter_image: python_banner_02.jpeg
 banner_image: python_banner_02.jpeg
 description: 'Using python to get contents of a routing table part 2'
+summary: How a properly formatted data structure and a non-formatted data structure look like. Here, we’re going to convert the output of the popular show ip route command into a “proper” data structure, and not just a string.
 permalink: /2014/04/parsing-a-routing-table-with-python-part2
 categories:
   - Coding

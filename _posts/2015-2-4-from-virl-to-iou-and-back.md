@@ -6,6 +6,8 @@ image: logo_cisco1.jpg
 twitter_image: logo_cisco1.jpg
 banner_image: logo_cisco1.jpg
 date: 2015-02-04 13:53:01
+description: Testing with VIRL and IOU, the differences
+summary: When VIRL first came out everyone jumped on the bandwagon, including myself. Some of us have had it before it was officially released to the public. Cisco's VIRL is really a good piece of software, but it has its short comings.
 permalink: /2015/02/from-virl-to-iou-and-back
 categories:
   - Networking
