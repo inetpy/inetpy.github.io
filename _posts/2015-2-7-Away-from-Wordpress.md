@@ -18,7 +18,7 @@ tags:
   - blog-platform
 ---
 Recently I seriously considered shutting down the blog. I wasn't writing as often as I wanted. It was costing money to keep up, the free services are really sub-par from what I've experienced. It wasn't a ton of money, but use vs cost wasn't justifiable really. The Scott Lowe <a href="https://twitter.com/scott_lowe" target="_blank">@scott_lowe</a> published his <a href="http://blog.scottlowe.org/2015/01/06/the-story-behind-the-migration/" target="_blank">story on migrating to Jekyll on Github</a> and I found it interesting. 
-
+<!--more-->
 ### Why?
 
 Jekyll was never a consideration for me, but Scott's post inspired me to take a look and see if it was worth the migration. Looking at migration tools (there are plenty of tutorials) Scott's included, that's not what this is. Not all posts were moved, only the ones that received enough attention and I thought were worth the move. This service is offered free by <a href="https://www.github.com" target="_blank">Github</a> and though I don't pay as much attention as I should to writing more often, being free, it's hard to say no.
