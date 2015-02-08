@@ -5,7 +5,7 @@ layout: post
 image: VTP_VLAN.jpg
 twitter_image: VTP_VLAN.jpg
 description: "VTP is the Devil! Or is it?"
-summary: The Devil! Yes, VTP is not the Devil itself, but it very well could be. I understand the "protect it" or make sure you know what you're doing arguments. Those are all fine and dandy, and the fact that you can't use VLANS > 1005 is not even the reason I hate it.
+summary: The Devil! Yes, VTP is not the Devil itself, but it very well could be. I understand the "protect it" or make sure you know what you're doing arguments. Those are all fine and dandy, and the fact that you can't use VLANS > 1005 is not even the reason I hate it...
 permalink: /2013/09/to-kill-a-vtp
 dsq_thread_id:
   - 1752870234

@@ -6,7 +6,7 @@ image: python_banner_01.png
 twitter_image: python_banner_01.png
 banner_image: python_banner_01.png
 description: 'Using python to get contents of a routing table part 1'
-summary: It's all in the API's, well, not exactly, not everything you want to get or parse is handed down in a nicely formatted XML file or JSON format. These file structures translate to some type of data structure, with relative ease. Be it a list/array a dictionary container or some sort of combination.
+summary: It's all in the API's, well, not exactly, not everything you want to get or parse is handed down in a nicely formatted XML file or JSON format. These file structures translate to some type of data structure, with relative ease. Be it a list/array a dictionary container or some sort of combination...
 permalink: /2014/04/parsing-a-routing-table-with-python-part1
 categories:
   - Coding
@@ -23,7 +23,9 @@ tags:
   - cisco python
   - arista python
 ---
+<hr>
 ![](http://ipyandy.net/images/python_banner_01.png)
+<hr>
 
 It's all in the API's, well, not exactly, not everything you want to get or parse is handed down in a nicely formatted XML file or JSON format. These file structures translate to some type of data structure, with relative ease. Be it a list/array a dictionary container or some sort of combination.
 

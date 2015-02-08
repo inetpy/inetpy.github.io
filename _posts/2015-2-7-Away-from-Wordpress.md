@@ -5,7 +5,7 @@ layout: post
 image: jekyll-1.jpg
 twitter_image: jekyll-1.jpg
 description: 'My move from Wordpress self hosted to Jekyll on Github'
-summary: Recently I seriously considered shutting down the blog. I wasn't writing as often as I wanted. It was costing money to keep up, the free services are really sub-par from what I've experienced. It wasn't a ton of money, but use vs cost wasn't justifiable really. 
+summary: Recently I seriously considered shutting down the blog. I wasn't writing as often as I wanted. It was costing money to keep up, the free services are really sub-par from what I've experienced. It wasn't a ton of money, but use vs cost wasn't justifiable really...
 date: 2015-02-07 15:21:00
 permalink: 2015/02/away-from-wordpress/
 categories:

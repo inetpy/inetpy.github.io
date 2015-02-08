@@ -4,11 +4,10 @@ author: yandy
 layout: post
 date: 2014-03-08 11:11:55
 permalink: /2014/03/network-syntax-highlighting-in-sublime-text/
-banner_image: sublimebanner.jpg
 image: sublimebanner.jpg
 twitter_image: sublimebanner.jpg
 description: Never look at Cisco configs the same way again, try syntax highlighting
-summary: Never look at Cisco configs the same way again, try syntax highlighting just as if you were writing **C++** or **Python** or any other programming language.
+summary: Never look at Cisco configs the same way again, try syntax highlighting just as if you were writing C++ or Python or any other programming language...
 categories:
   - Coding
 tags:
@@ -20,6 +19,10 @@ tags:
   - syntax
   - syntax highlighting
 ---
+<hr>
+![](http://ipyandy.net/images/sublimebanner.jpg)
+<hr>
+
 Never look at Cisco configs the same way again, try syntax highlighting just as if you were writing **C++** or **Python** or any other programming language.
 
 Here’s something I modified from the original version <a href="https://github.com/tunnelsup/sublime-cisco-syntax" target="blank">HERE</a>. If you use <a href="http://www.sublimetext.com/2" target="blank">Sublime Text 2/3</a> and work on Cisco equipment, you may find this cool.
