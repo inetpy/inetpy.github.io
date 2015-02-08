@@ -12,7 +12,7 @@ All thoughts, comments or anything else expressed in this site is based on my vi
 
 ### Contact Me
 
-Say `Hello` at yr@ipyandy.net or find
+Say `Hello` at [yr@ipyandy.net](mailto:yr@ipyandy.net) or find
 me on
 
 ---
