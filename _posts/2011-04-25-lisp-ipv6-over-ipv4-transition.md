@@ -3,7 +3,11 @@ title: '{LISP} IPv6 over IPv4 Transition'
 author: Yandy
 layout: post
 banner_image: Lisp-logo.jpg
+image: lisp.jpg
+twitter_image: lisp.jpg
 permalink: 2011/04/lisp-ipv6-over-ipv4-transition/
+description: Tunnel IPv6 over IPv4 using LISP
+summary: First an foremost, I want to thank Ivan Pepelnjakof ipspace.net for taking the time to read, correct and validate these concepts. Taking time out of his busy schedule to make sure this information is as accurate as possible.
 dsq_thread_id:
   - 2479721805
 categories:

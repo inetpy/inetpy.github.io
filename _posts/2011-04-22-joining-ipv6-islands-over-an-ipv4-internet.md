@@ -3,6 +3,10 @@ title: 'Joining IPv6 Islands over an IPv4 Internet DMVPN'
 author: yandy
 layout: post
 permalink: /2011/04/joining-ipv6-over-ipv4/
+image: 8439-DMVPN-QoS.jpg
+twitter_image: 8439-DMVPN-QoS.jpg
+description: Use DMVPN to transport IPv6 over an IPv4 only backbone or internet.
+summary: Well this one really doesn’t need much of an explanation anymore, IPv6 is here and IPv4 has been here for a long time. In most networks, the two must co-exist side by side or one on top of the other for a while, until the time where IPv6 becomes the only one. Hear that?; “It’s the sound of inevitability Mr. Anderson”. Whether you like to think about IPv6 or not, it’s here and it’s here to stay. So continuing on from a previous post on my own IPv6 series, we’re going to look at how to get disparate IPv6 sites over an IPv4 only Internet (the same can apply for an IPv4 only Backbone).
 dsq_thread_id:
   - 2479751008
 categories:
