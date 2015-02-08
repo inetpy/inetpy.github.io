@@ -1,5 +1,5 @@
 ---
-title: 'Testing'
+title: 'Learn to Code'
 author: Yandy
 layout: post
 date: 2014-04-04 13:13:02
@@ -7,7 +7,7 @@ image: coding_banner.jpeg
 twitter_image: coding_banner.jpeg
 description: Useful to code? I believe it is, and you should too ;)
 summary: I took a few C++ and Visual Basic courses back in high shcool. Now, at that time, they didn’t teach the STL (Standard Template Library), I remember using conio.h allot, not really understading what or why at the time. Never did much with any language until recently since...
-permalink: 2014/04/learn-to-code-part-1/
+permalink: /2014/04/learn-to-code-part-1/
 categories:
   - Coding
 tags:
