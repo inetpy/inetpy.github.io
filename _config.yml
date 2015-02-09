@@ -18,8 +18,9 @@ google_analytics: "UA-10501449-11"
 # Optional features
 animated:           false
 show_related_posts: false
-show_post_footers:  true
+show_post_footers:  false
 show_social_icons:  true
+show_share_icons: true
 
 excerpt_separator: "<!--more-->"
 

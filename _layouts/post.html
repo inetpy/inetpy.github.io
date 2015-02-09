@@ -30,6 +30,11 @@ layout: default
   {% include post_footer.html %}
 {% endif %}
 
+<!-- show share icons for posts  by yandy-->
+{% if site.show_share_icons %}
+  {% include post-share-icons.html %}
+{% endif %}
+
 {% if site.disqus_shortname %}
   <div id="disqus_thread"></div>
   <script type="text/javascript">
