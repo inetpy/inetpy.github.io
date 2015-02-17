@@ -88,9 +88,9 @@ Just to wrap it up, here's some examples of how my preference for naming schemes
 
 Can you guess what each is from just looking at the name?
 
-MIA-WAN-A1K-DC1-1
-DFW-PE-A9K-DC2-1
-JFK-DCS-N7K-DC1-1
+* MIA-WAN-A1K-DC1-1
+* DFW-PE-A9K-DC2-1
+* JFK-DCS-N7K-DC1-1
 
 ### Summary
 
