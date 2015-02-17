@@ -37,6 +37,17 @@ There are also hostnames that are too long and complex that you just give up try
 
 KISS (Keep it Simple Stupid) I'm a big believer in this, keeping simplicity at the core. But how do you express function with simplicity? Can your naming scheme be too simple? Of course it can, one of the examples above shows it. But this was simplicity without thought or just plain lazyness which happens.
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ipy_responsive_2_text -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2031545302097188"
+     data-ad-slot="7544446295"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Lengths and Preferences
 
 The name should be long enough to tell you, "I know exactly what this" by just looking at it. But not so long that you need double retina resolution to keep every other output or command from wrapping lines.
