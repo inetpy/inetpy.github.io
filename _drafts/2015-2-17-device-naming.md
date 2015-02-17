@@ -21,7 +21,6 @@ tags:
   - cisco
   - cisco-hostname
 ---
-
 <hr>
 ![](http://ipyandy.net/images/device_hostname.jpg)
 <hr>
