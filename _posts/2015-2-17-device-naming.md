@@ -24,6 +24,7 @@ tags:
 <hr>
 ![](http://ipyandy.net/images/device_hostname.jpg)
 <hr>
+
 Choosing a device hostname seems trivial to say the least. However, from multiple design meetings, this is a topic that tends to drag on. Everyone has a preference, and opinion or just set in the ways *we've done it* this way for a long time and so on with other excuses.
 
 ### What's in a Name?
