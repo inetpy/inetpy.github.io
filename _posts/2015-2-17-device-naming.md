@@ -1,5 +1,5 @@
 ---
-title: 'Device Naming Conventions - What's in a Name?'
+title: Device Naming Conventions - What's in a Name?
 author: Yandy
 layout: post
 image: device_hostname.jpg
