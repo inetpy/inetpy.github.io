@@ -2,11 +2,11 @@
 title: 'Device Naming Conventions - What's in a Name?'
 author: Yandy
 layout: post
-date: 2015-02-17
 image: device_hostname.jpg
 twitter_image: device_hostname.jpg
 description: "Choosing a device hostname seems trivial to say the least. This is not always the case when discussing it in the open."
-summary: "Choosing a device hostname seems trivial to say the least. However, from multiple design meetings, this is a topic that tends to drag on. Everyone has a preference, and opinion or just set in the ways *we've done* this way for a long time."
+summary: "Choosing a device hostname seems trivial to say the least. However, from multiple design meetings, this is a topic that tends to drag on. Everyone has a preference, and opinion or just set in the ways *we've done* this way for a long time..."
+date: 2015-02-17 13:39:00
 permalink: 2015/02/device-naming-conventions/
 categories:
   - Design
