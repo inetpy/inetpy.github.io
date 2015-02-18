@@ -21,5 +21,5 @@ tags:
   - projects
 ---
 <hr>
-![](http://ipyandy.net/images/)
+![](http://ipyandy.net/images/py_virtualenv.jpg)
 <hr>
