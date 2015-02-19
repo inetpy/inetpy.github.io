@@ -29,6 +29,17 @@ Most think of **python virtualenv** as a way to create isolated development envi
 
 While I do use them for their intended purpose and work on all my **python** projects inside a *virtualenv*.  There's more to them than this as they have further use for all project types in conjunction with **git**.
 
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- ipy_responsive_2_text -->
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-2031545302097188"
+     data-ad-slot="7544446295"
+     data-ad-format="auto"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
 ### Creating Virtualenvs
 
 There's an aliases file which amongst other things has two lines, one for each version of python.
