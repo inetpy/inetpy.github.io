@@ -2,7 +2,7 @@
 title: Using sipcalc The Great Subnet Calculator
 author: Yandy Ramirez
 layout: post
-date: YYYY-MM-DD HH-MM-SS
+date: 2015-02-20 11:20:01
 image: osx-001.jpg
 twitter_image: osx-001.jpg
 description: In the CCNA days we all had to learn how to subnet and work with binary. This was either on paper or in your head if you were quick enough to do it. This really is an invaluable skill when speaking, talking IP design and more. When someone throws out a lets just use the 10.98.0.0/12 for this site. It's good to know that it wouldn't quite work (bit boundaries and all)
@@ -29,7 +29,7 @@ tags:
 
 In the CCNA days we all had to learn how to subnet and work with binary. This was either on paper or in your head if you were quick enough to do it. This really is an invaluable skill when speaking, talking IP design and more. When someone throws out a lets just use the 10.98.0.0/12 for *this* site. It's good to know that it wouldn't quite work (bit boundaries and all). 
 
-Though doing an IP design|scheme for an Enterprise entirely in your head is not feasible and extremely error prone (things are always error prone). Enter **sipcalc** a nix (linux, bsd, os x) command-line utility that's fast and supports IPv6, yes that's right IPv6 and all.
+Though doing an IP design/scheme for an Enterprise entirely in your head is not feasible and extremely error prone (things are always error prone). Enter **sipcalc** a nix (linux, bsd, os x) command-line utility that's fast and supports IPv6, yes that's right IPv6 and all.
 <!--more-->
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- ipy_responsive_2_text -->
@@ -111,7 +111,7 @@ Network mask (bits)	- 12
 
 ### Bonus IPv6
 
-I mentioned that **sipcalc** does IPv6, and most of the same options that work on IPv4 work with IPv6. The difference for splitting a subnet|prefix is just adding a capital (-S) instead of the (-s).
+I mentioned that **sipcalc** does IPv6, and most of the same options that work on IPv4 work with IPv6. The difference for splitting a subnet/prefix is just adding a capital (-S) instead of the (-s).
 
 {% highlight bash %}
 $ sipcalc 2001:1::/32 -S 34
@@ -132,12 +132,12 @@ Kept it short, because well, IPv6 prefixes can easily take my entire buffer on-s
 
 ##### Quick Install
 
-**Ubuntu | Debian**
+**Ubuntu / Debian**
 {% highlight bash %}
 sudo apt-get install sipcalc
 {% endhighlight %}
 
-**Redhad | Fedora | (Redhat based OS)**
+**Redhad / Fedora / (Redhat based OS)**
 {% highlight bash %}
 sudo yum install sipcalc
 {% endhighlight %}
