@@ -31,6 +31,7 @@ In the CCNA days we all had to learn how to subnet and work with binary. This wa
 
 Though doing an IP design/scheme for an Enterprise entirely in your head is not feasible and extremely error prone (things are always error prone). Enter **sipcalc** a nix (linux, bsd, os x) command-line utility that's fast and supports IPv6, yes that's right IPv6 and all.
 <!--more-->
+
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 <!-- ipy_responsive_2_text -->
 <ins class="adsbygoogle"
