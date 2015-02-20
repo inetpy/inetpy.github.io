@@ -81,7 +81,7 @@ Network			- 10.56.0.0       - 10.59.255.255
 Network			- 10.60.0.0       - 10.63.255.255
 {% endhighlight %}
 
-Now each one of these sites within the first /14 will be using a /17 for their inidiviual subnets. We can find that out the same way.
+Now each one of these sites within the first /14 will be using a /17 for their individual subnets. We can find that out the same way.
 
 {% highlight bash %}
 $ sipcalc 10.48.0.0/14 -s 17
@@ -149,12 +149,12 @@ sudo port install sipcalc
 sudo apt-get install sipcalc
 {% endhighlight %}
 
-**Redhad / Fedora / (Redhat based OS)**
+**Redhat / Fedora / (Redhat based OS)**
 {% highlight bash %}
 sudo yum install sipcalc
 {% endhighlight %}
 
-For other OSe's look up the documentation or download from source and compile (Google it!).
+For other OSes look up the documentation or download from source and compile (Google it!).
 
 ### Summary
 
