@@ -1,5 +1,5 @@
 ---
-title: Using sipcalc The Great Subnet Calculator
+title: Using sipcalc The Great and Powerful Subnet Calculator
 author: Yandy Ramirez
 layout: post
 date: 2015-02-20 11:20:01
