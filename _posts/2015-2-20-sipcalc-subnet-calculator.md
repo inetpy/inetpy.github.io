@@ -133,6 +133,17 @@ Kept it short, because well, IPv6 prefixes can easily take my entire buffer on-s
 
 ##### Quick Install
 
+**Mac OS X**
+install with homebrew
+{% highlight bash %}
+brew install sipcalc
+{% endhighlight %}
+
+install with MacPorts
+{% highlight bash %}
+sudo port install sipcalc
+{% endhighlight %}
+
 **Ubuntu / Debian**
 {% highlight bash %}
 sudo apt-get install sipcalc
