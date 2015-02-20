@@ -9,16 +9,21 @@ layout: default
       <div class="post">
         <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
           <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-          <h3 class="h2 post-title">{{ post.title }}</h3>
-          {% if post.summary %}
+          <h3 class="h3 post-title">{{ post.title }}</h3>
+        </a>
+        <!-- <a href="{{ tags.url | prepend: site.baseurl }}" class="category-link">
+          <p class="post-meta">{{ post.tags }} </p>
+        </a> -->
+        {% if post.summary %}
             <p class="post-summary">{{ post.summary }}</p>
           {% else %}
             <p class="post-summary">{{ post.description }}</p>
           {% endif %}
-        </a>
+          <a href="{{ post.url | prepend: site.baseurl }}" class="post-link">
+            <p class="post-meta">[READ MORE]</p>
+          </a>
       </div>
     {% endfor %}
   </div>
-
   {% include pagination.html %}
 </div>
