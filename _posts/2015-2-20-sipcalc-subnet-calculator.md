@@ -24,7 +24,7 @@ tags:
   - bsd
 ---
 <hr>
-![](http://ipyandy.net/images/osx-001.jpg)
+![]({{ site.url }}/images/osx-001.jpg)
 <hr>
 
 In the CCNA days we all had to learn how to subnet and work with binary. This was either on paper or in your head if you were quick enough to do it. This really is an invaluable skill when speaking, talking IP design and more. When someone throws out a lets just use the 10.98.0.0/12 for *this* site. It's good to know that it wouldn't quite work (bit boundaries and all). 
