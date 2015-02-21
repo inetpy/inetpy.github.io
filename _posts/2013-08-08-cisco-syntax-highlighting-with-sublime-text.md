@@ -15,9 +15,11 @@ tags:
   - cisco
   - networking
   - sublime
-  - sublime text
+  - sublime-text
   - syntax
-  - syntax highlighting
+  - syntax-highlighting
+  - sublimetext-3
+  - sublimetext-2
 ---
 <hr>
 ![](http://ipyandy.net/images/sublimebanner.jpg)

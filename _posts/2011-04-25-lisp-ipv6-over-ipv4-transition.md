@@ -14,8 +14,8 @@ categories:
   - Networking
 tags:
   - ipv6
-  - ipv6 over ipv4
-  - ipv6 transition
+  - ipv6-over-ipv4
+  - ipv6-transition
   - lisp
 ---
 First an foremost, I want to thank <a href="https://twitter.com/#!/ioshints" target="blank">Ivan Pepelnjak</a> of <a href="http://www.ipspace.net" target="blank">ipspace.net</a> for taking the time to read, correct and validate these concepts. Taking time out of his busy schedule to make sure this information is as accurate as possible.

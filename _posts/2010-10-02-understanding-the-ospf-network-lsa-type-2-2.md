@@ -13,10 +13,10 @@ categories:
   - Networking
 tags:
   - ccie
-  - cisco ospf
-  - network lsa
+  - cisco-ospf
+  - network-lsa
   - ospf
-  - ospf lsa
+  - ospf-lsa
   - routing
 ---
 <hr>

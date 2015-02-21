@@ -12,14 +12,14 @@ dsq_thread_id:
 categories:
   - Networking
 tags:
-  - data center
+  - data-center
   - Datacenter
   - ecmp
-  - FabricPath
+  - fabricpath
   - layer2
-  - Nexus
-  - nexus 5000
-  - nexus 7000
+  - nexus
+  - nexus-5000
+  - nexus-7000
 ---
 FabricPath is a Layer-2 routing architecture (yes L2 routing), using ISIS to build shortest path trees to destination bridges (using their bridge-id). Cisco offers plenty of documents <a href="http://www.cisco.com/en/US/prod/collateral/switches/ps9441/ps9670/guide_c07-690079.html" target="blank">This is one of them</a> explaining in detail what FabricPath is. FabricPath (Cisco&#8217;s implementation of a non-standard TRILL implementation) completely eliminates spanning-tree from the FP links. 
 

@@ -13,10 +13,10 @@ categories:
   - Networking
 tags:
   - ccie
-  - LSA Type-3
-  - Network Summary LSA
-  - OSPF Database
-  - Summary LSA
+  - lsa-type-3
+  - network-summary-lsa
+  - ospf-database
+  - summary-lsa
 ---
 --------------------------------------------------------------------------
 ![](http://ipyandy.net/images/ospf_banner_generic.jpg)

@@ -14,7 +14,7 @@ categories:
 tags:
   - bgp
   - mpls
-  - mpls vpn
+  - mpls-vpn
 ---
 ![](http://ipyandy.net/images/vrf_leak.gif)
 

@@ -15,9 +15,9 @@ tags:
   - icmpv6
   - ipv6
   - link-local
-  - ospf ipv6
+  - ospf-ipv6
   - ospfv3
-  - path mtu
+  - path-mtu
 ---
 ![](http://ipyandy.net/images/ipv6_banner.jpg)
 

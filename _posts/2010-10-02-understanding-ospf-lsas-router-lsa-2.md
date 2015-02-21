@@ -15,13 +15,13 @@ categories:
 tags:
   - ccie
   - cisco
-  - cisco networking
-  - ospf lsa
-  - router lsa
+  - cisco-networking
+  - ospf-lsa
+  - router-lsa
   - routing
   - ospf
-  - cisco ospf
-  - lsa type 2
+  - cisco-ospf
+  - lsa-type-2
 ---
 <hr>
 ![](http://ipyandy.net/images/generic_banner.jpg)

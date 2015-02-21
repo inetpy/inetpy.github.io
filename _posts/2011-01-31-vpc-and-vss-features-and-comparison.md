@@ -12,7 +12,7 @@ categories:
 tags:
   - 6500
   - catalyst
-  - Nexus
+  - nexus
   - switching
   - vpc
   - vss

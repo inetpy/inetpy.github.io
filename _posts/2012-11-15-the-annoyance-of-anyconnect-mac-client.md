@@ -13,12 +13,12 @@ categories:
   - Mac OS X
   - Networking
 tags:
-  - annyconnect os x
+  - annyconnect-os-x
   - anyconnect
-  - anyconnect mac
-  - cisco anyconnect
+  - anyconnect-mac
+  - cisco-anyconnect
   - mac
-  - os x
+  - os-x
 ---
 I find it annoying that sometimes, the list of remembered connections (which is just one), turns out to be a VPN you never use, or only used once. This is a problem I find only on the Mac AnyConnect client, (never tested the Linux version). The problem is, even if you establish another connection, when the client is re-opened it goes back to that original profile link.
 

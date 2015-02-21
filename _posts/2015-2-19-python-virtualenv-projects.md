@@ -14,10 +14,10 @@ tags:
   - python
   - python2
   - python3
-  - python virtualenv
+  - python-virtualenv
   - virtualenv
   - virtualenvwrapper
-  - virtual environments
+  - virtual-environments
   - projects
 ---
 <hr>

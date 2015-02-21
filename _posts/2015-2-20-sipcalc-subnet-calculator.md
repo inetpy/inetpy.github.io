@@ -12,13 +12,13 @@ categories:
   - Networking
 tags:
   - sipcalc
-  - using sipcalc
+  - using-sipcalc
   - subnetting
-  - subnet calculator
+  - subnet-calculator
   - osx
-  - os x
-  - mac os x
-  - os x subnet calculator
+  - os-x
+  - mac-os-x
+  - os-x-subnet calculator
   - linux
   - ubuntu
   - bsd

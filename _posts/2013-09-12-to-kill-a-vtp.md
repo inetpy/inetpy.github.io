@@ -14,7 +14,7 @@ categories:
 tags:
   - 6500
   - catalyst
-  - catalyst 6500
+  - catalyst-6500
   - cisco
   - switching
   - vtp

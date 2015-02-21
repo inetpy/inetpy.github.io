@@ -15,13 +15,17 @@ tags:
   - coding
   - networking
   - routing
-  - python networking
-  - python engineer
-  - parsing routing table
-  - parsing python
-  - python parsing
-  - cisco python
-  - arista python
+  - python-networking
+  - python-engineer
+  - parsing-routing-table
+  - parsing-python
+  - python-parsing
+  - cisco-python
+  - arista-python
+  - eos-python
+  - eos-api
+  - veos
+  - arista-eos
 ---
 <hr>
 ![](http://ipyandy.net/images/python_banner_02.jpeg)

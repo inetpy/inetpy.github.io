@@ -12,15 +12,15 @@ dsq_thread_id:
 categories:
   - Networking
 tags:
-  - Nexus
-  - nexus 5000
-  - nexus 7000
-  - nexus two way vpc
-  - nexus vpc
-  - two way vpc
+  - nexus
+  - nexus-5000
+  - nexus-7000
+  - nexus-two-way-vpc
+  - nexus-vpc
+  - two-way-vpc
   - vpc
   - mec
-  - multi-chassis link aggregation
+  - multi-chassis-link-aggregation
 ---
 Quick overview of topology, two Nexus 7000s and two Nexus 5020s each with two 10Gig connections to each other. In other words, there&#8217;s a total of 40Gig between each switch, and they&#8217;re all in one vPC, like so.
 

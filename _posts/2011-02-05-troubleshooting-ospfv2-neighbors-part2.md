@@ -16,10 +16,10 @@ categories:
 tags:
   - ccie
   - neighbors
-  - Troubleshooting
+  - troubleshooting
   - routing
   - ospf
-  - ospf neighbors
+  - ospf-neighbors
   - cisco
 ---
 --------------------------------------------------------------------------

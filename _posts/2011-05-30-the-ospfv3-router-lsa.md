@@ -13,13 +13,13 @@ categories:
   - Networking
 tags:
   - ccie
-  - OSPF Database
+  - ospf-databse
   - ospfv3
-  - router lsa
+  - router-lsa
   - cisco
-  - ospfv3 router lsa
-  - cisco ospf
-  - cisco ospfv3
+  - ospfv3-router-lsa
+  - cisco-ospf
+  - cisco-ospfv3
 ---
 In most cases, OSPFv3 behaves identical to good old OSPF which we all love; right? Except for some minor differences in certain LSAs, some new one’s and others that are the same LSA, but behave a bit different. The purpose of this article is to try and cover the firs three of these LSAs. The Router LSA, which has the same name as it’s OSPFv2 counterpart. The Intra-Area-Prefix LSA, which is new in OSPFv3. Last but not least, the Link specific LSA, which is also new in OSPFv3.
 
