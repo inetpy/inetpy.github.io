@@ -24,6 +24,7 @@ show_share_icons: true
 
 excerpt_separator: "<!--more-->"
 
+
 # Disqus post comments
 # (leave blank to disable Disqus)
 disqus_shortname: iyandy
