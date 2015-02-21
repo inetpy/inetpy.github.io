@@ -2,15 +2,15 @@
 title:       "[IP]yandy"
 email:       yr@ipyandy.net
 author:      Yandy Ramirez
-description: "Internetworking and Python for Engineers"
+description: "Internetworking with Python for Engineers"
 baseurl:     ""
-url:         "http://ipyandy.net"
+url:         "http://inetpy.com"
 # url: localhost:4000
 
-avatar: http://ipyandy.net/images/logo.png
-logo: http://ipyandy.net/images/logo.png
-image: http://ipyandy.net/images/logo.png
-twitter_image: http://ipyandy.net/images/logo.png
+avatar: http://inetpy.com/images/logo.png
+logo: http://inetpy.com/images/logo.png
+image: http://inetpy.com/images/logo.png
+twitter_image: http://inetpy.com/images/logo.png
 
 # Google analytics
 google_analytics: "UA-10501449-11"
