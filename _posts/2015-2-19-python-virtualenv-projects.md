@@ -21,7 +21,7 @@ tags:
   - projects
 ---
 <hr>
-![](http://ipyandy.net/images/py_virtualenv.jpg)
+![](http://inetpy.com/images/py_virtualenv.jpg)
 <hr>
 Most think of **python virtualenv** as a way to create isolated development environments within a single PC, Laptop, Server, whatever their choice is. This is true, it's what **virtualenv** was created for (so they say). 
 
@@ -140,7 +140,7 @@ $ workon dummy-design
 {% endhighlight %}
 
 **SHAZAM**! magic happens.
-![](http://ipyandy.net/images/shazam.jpg)
+![](http://inetpy.com/images/shazam.jpg)
 
 ### Summary
 

@@ -22,7 +22,7 @@ tags:
   - cisco-hostname
 ---
 <hr>
-![](http://ipyandy.net/images/device_hostname.jpg)
+![](http://inetpy.com/images/device_hostname.jpg)
 <hr>
 
 Choosing a device hostname seems trivial to say the least. However, from multiple design meetings, this is a topic that tends to drag on. Everyone has a preference, and opinion or just set in the ways *we've done it* this way for a long time and so on with other excuses.
@@ -107,4 +107,4 @@ Can you guess what each is from just looking at the name?
 
 Do you agree with this? Do you have your own preferences? I'm sure you do! Share them in the comments or drop me an [email][1] and I'll share thoughts in an updated post.
 
-[1]: mailto:yr@ipyandy.net
+[1]: mailto:yr@inetpy.com

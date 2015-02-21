@@ -16,7 +16,7 @@ tags:
   - mpls
   - mpls-vpn
 ---
-![](http://ipyandy.net/images/vrf_leak.gif)
+![](http://inetpy.com/images/vrf_leak.gif)
 
 One of the most common **MPLS VPN** topologies is the **Common Services** simply put, it provides the most control of Branch traffic and filtering. MPLS VPNs are among one of today’s favorite and for good reason, it’s mainly scalable and provides nice redundancy in the SP network. But it also has it’s uses in Enterprise Campus and WAN networks. <a class="external" style="border: dotted blue 1px;" title="Follow on Twitter" href="https://twitter.com/#!/ioshints/" target="blank">Ivan Pepelnjak</a> has an awesome <a class="external" style="border: dotted black 1px;" title="Enterprise MPLS VPN Deployment" href="http://www.ioshints.info/Enterprise_MPLS_VPN_Deployment/" target="blank">Webinar</a> that covers allot of what you need to know. This blog post is simply to illustrate configuration samples and how to leak routes between MPLS L3 VPNs. This can be useful for for filtering or non-filtering of traffic between branch sites. As it stands, it’s not a BGP or MPLS VPN primer so it’s expected you have some knowledge of the subject. I will include footnotes with some *read on your own* material covering these topics.
 

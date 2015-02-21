@@ -18,7 +18,7 @@ tags:
   - vss
 ---
 <hr>
-![](http://ipyandy.net/images/generic_banner.jpg)
+![](http://inetpy.com/images/generic_banner.jpg)
 <hr>
 
 Seems like other than IPv6 allot of the talk lately (in the Datacenter anyways) is about MEC, or multi-chassis etherchannel. Using something like this in the aggregation part of the Datacenter not just limited to physically stackable access switches, such as the Catalyst 3750s. There's been plenty of posts about this subject, some of the best at Ivan's blog over at <a href="http://blog.ioshints.inf" target="_blank">ioshints.info</a>, but I thought I'll add my own thoughts and what I've come to learn.
@@ -31,7 +31,7 @@ To begin with, VSS is a Catalyst 6500 implementation of the so called MEC (multi
 
 Comparing both below, more details to come. 
 
-[<img id="img1" title="img1" src="http://ipyandy.net/assets/images/vPC_VSS.png" alt="" width="" height="" />][img1]
+[<img id="img1" title="img1" src="http://inetpy.com/assets/images/vPC_VSS.png" alt="" width="" height="" />][img1]
 
 <!--more-->
 
@@ -92,4 +92,4 @@ There are some scenarios where one of the Sups on the Standby switch acts as a D
 
 Some of Cisco's push for VSS is that it simplifies the architecture by providing less management points. This is done through the virtualization of the Cat6500 switches. However, in some cases this may add more complexity in configuration and know-how to really be a benefit. It can also add complexity to troubleshooting unknown scenarios. It all comes down to requirements, and both vPC and VSS have their use, but not always a necessity even if appealing to the masses.
 
-[img1]: http://ipyandy.net/assets/images/vPC_VSS.png
+[img1]: http://inetpy.com/assets/images/vPC_VSS.png

@@ -20,7 +20,7 @@ tags:
   - ccie
 ---
 <hr>
-![](http://ipyandy.net/images/logo_cisco1.jpg)
+![](http://inetpy.com/images/logo_cisco1.jpg)
 <hr>
 
 When VIRL first came out everyone jumped on the bandwagon, including myself. Some of us have had it before it was officially released to the public. Cisco's VIRL is really a good piece of software, but it has its short comings.

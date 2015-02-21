@@ -24,7 +24,7 @@ tags:
   - lsa-type-2
 ---
 <hr>
-![](http://ipyandy.net/images/generic_banner.jpg)
+![](http://inetpy.com/images/generic_banner.jpg)
 <hr>
 
 This first post is dedicated to the first of the OSPF LSAs which is. Router (type 1),  I've met / interviewed people that know exactly what most OSPF LSA types are by the book. But present a small scenario and ask what type of LSA will be generated or seen and they stutter or stare into blank space. Hence it's not a true understanding of what these are, and I'll try to cover that in this post.

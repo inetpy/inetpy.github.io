@@ -23,7 +23,7 @@ tags:
   - cisco
 ---
 --------------------------------------------------------------------------
-![](http://ipyandy.net/images/ospf_banner_generic.jpg)
+![](http://inetpy.com/images/ospf_banner_generic.jpg)
 
 This will seem very similar to t he last post, again going on simple. Things that can be overlooked if one is not careful, doesn't look at everything with a magnifying glass, and becomes over confident. Same scenario, routers, link and the same area as before, but again just a little bit of enough twist to have an issue.
 
@@ -31,7 +31,7 @@ The debugging commands pertain to OSPFv2, however, the same thing can happen wit
 
 ### Diagram
 
-[<img class="alignnone" src="http://ipyandy.net/assets/images/r8-r4.png" alt="" width="231" height="243" />][1]
+[<img class="alignnone" src="http://inetpy.com/assets/images/r8-r4.png" alt="" width="231" height="243" />][1]
 
 <!--more-->
 
@@ -123,4 +123,4 @@ The second part of this is really simple:
 
 We can have the same problem, but have different output all together, if we were using the *network 172.8.48.0* command under OSPF process on R4, and not the *ip ospf* command under the interface like we are here. The result would be completely different, R4 would not even send hellos out, and the issue would become a bit more apparent.
 
- [1]: http://ipyandy.net/assets/images/r8-r4.png
+ [1]: http://inetpy.com/assets/images/r8-r4.png

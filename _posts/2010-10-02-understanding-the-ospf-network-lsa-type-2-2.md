@@ -20,14 +20,14 @@ tags:
   - routing
 ---
 <hr>
-![](http://ipyandy.net/images/generic_banner.jpg)
+![](http://inetpy.com/images/generic_banner.jpg)
 <hr>
 
 In this second part of our OSPF LSAs covering the Network LSA or otherwise known as Type 2 LSA. This is probably one of the easiest to understand. But there's no better way to tell, than to actually see it do it's thing.
   
 ### Description
 
-The OSPF Network LSA (type 2) is advertised by the DR (Designated Router) on each multi-access network. The DR itself represents the multi-access network itself and all of it's attached routers (quote from Routing TCP/IP Vol1) as a pseudonode. This means that the DR itself has a &#8220;virtual&#8221; adjacency to the pseudonode as the Network LSA would show. The Network LSA represents this &#8220;virtual router&#8221; just like the Router LSA (type 1) represented a router itself as discussed in the <a href="http://ipyandy.net/2011/05/the-ospfv3-router-lsa/" target="_blank">previous</a>post. The Network LSA lists all attached routers to that multi-access network. Again, this is only advertised by the DR and it has area local scope.
+The OSPF Network LSA (type 2) is advertised by the DR (Designated Router) on each multi-access network. The DR itself represents the multi-access network itself and all of it's attached routers (quote from Routing TCP/IP Vol1) as a pseudonode. This means that the DR itself has a &#8220;virtual&#8221; adjacency to the pseudonode as the Network LSA would show. The Network LSA represents this &#8220;virtual router&#8221; just like the Router LSA (type 1) represented a router itself as discussed in the <a href="http://inetpy.com/2011/05/the-ospfv3-router-lsa/" target="_blank">previous</a>post. The Network LSA lists all attached routers to that multi-access network. Again, this is only advertised by the DR and it has area local scope.
   
 One thing to note is the lack of a metric in the Network LSA. This is because the cost from this pseudonode (virtual router) to any attached router is always zero. This prevents the pseudonode from adding extra cost to the link as it is only a virtual instance representing a multi-access network.
 

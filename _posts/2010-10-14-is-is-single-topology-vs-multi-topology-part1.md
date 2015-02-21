@@ -22,7 +22,7 @@ tags:
   - single-topoly
 ---
 <hr>
-![](http://ipyandy.net/images/generic_banner.jpg)
+![](http://inetpy.com/images/generic_banner.jpg)
 <hr>
 
 Today I'm covering a little topic that seems to trouble some people. Mainly because IS-IS is really only used in provider environments, but I happen to like it. It's a fairly stable protocol and once you get passed the OSPF vs IS-IS fight, it just works. Personally, I'll choose OSPF over IS-IS in most occasions just because more people know OSPF, but that's it. Either way, today's topic is for people running both IPv6 and IPv4 in the same network (routers / core). I've actually seen one environment where their IPv4 and IPv6 environment were completely separate.

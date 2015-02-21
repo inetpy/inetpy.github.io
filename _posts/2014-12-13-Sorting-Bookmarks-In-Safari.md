@@ -17,7 +17,7 @@ tags:
   - sorting-bookmarks
 ---
 <hr>
-![](http://ipyandy.net/images/Safari-Poster.jpg)
+![](http://inetpy.com/images/Safari-Poster.jpg)
 <hr>
 
 If you’re anything like me, then you may just be a bit OCD or ANAL when it comes to some things. One of those things is, I like my bookmarks/favorites in alphabetical order with **folders** sorted first.
@@ -33,4 +33,4 @@ With some searching I found a great little App called <a href="http://www.safari
 The app will quit and restart Safari in the process, not sure if tabs recover, did not try.
 
 ### Screenshot
-![](http://ipyandy.net/images/safarisort.png)
+![](http://inetpy.com/images/safarisort.png)

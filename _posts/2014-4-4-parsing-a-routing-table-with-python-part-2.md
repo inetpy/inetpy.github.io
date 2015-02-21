@@ -28,7 +28,7 @@ tags:
   - arista-eos
 ---
 <hr>
-![](http://ipyandy.net/images/python_banner_02.jpeg)
+![](http://inetpy.com/images/python_banner_02.jpeg)
 <hr>
 
 In the [previous article][1] (they’re split to make them easier to read) I talked about the theory and representation. How a properly formatted data structure and a non-formatted data structure look like. Here, we’re going to convert the output of the popular show ip route command into a “proper” data structure, and not just a string.
@@ -37,7 +37,7 @@ In the [previous article][1] (they’re split to make them easier to read) I tal
 
 ### (./python) THE CODE
 
-Again, any code “snippets” are not the full representation of the program. The full code is available on <a href="http://ipyandy.net/pnil/" target="_blank">github under my PNIL repo</a> and can be cloned, downloaded or forked.
+Again, any code “snippets” are not the full representation of the program. The full code is available on <a href="http://inetpy.com/pnil/" target="_blank">github under my PNIL repo</a> and can be cloned, downloaded or forked.
 
 ##### Running this line
 
@@ -475,5 +475,5 @@ cisco_str = '''Codes: C - connected, S - static, R - RIP, M - mobile, B - BGP
 Make sure to [Subscribe my RSS feed][2] and follwow me on Twitter [@IPyandy][3].
 
 [1]: {{ site.url }}/2014/04/parsing-a-routing-table-with-python-part1
-[2]: http://ipyandy.net/feed.xml
+[2]: http://inetpy.com/feed.xml
 [3]: https://twitter.com/IPyandy

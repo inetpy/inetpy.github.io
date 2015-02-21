@@ -40,12 +40,12 @@ Assuming F1 modules, a VLAN designated as FP VLAN cannot exist as an access or t
 This being the case, the below scenario (diagram) is not a valid design/configuration. If you try to normally trunk the any FP VLAN on an M1/2 port it will give you an error.
 
 **This is not Valid!**  
-[<img id="img" title="img" src="http://ipyandy.net/assets/images/fp_and_m_f_cards_01.jpg" alt="" width="" height="" />][img1]
+[<img id="img" title="img" src="http://inetpy.com/assets/images/fp_and_m_f_cards_01.jpg" alt="" width="" height="" />][img1]
 
 What you’ll need to do is create two separate VDCs then create a Trunk from the **F-Series** card to the **M-Series** card, ultimately separately managing them. 
 
 **This is Valid!**  
-[<img id="img2" title="img2" src="http://ipyandy.net/assets/images/fp_and_m_f_cards_02.jpg" alt="" width="" height="" />][img2]
+[<img id="img2" title="img2" src="http://inetpy.com/assets/images/fp_and_m_f_cards_02.jpg" alt="" width="" height="" />][img2]
 
 The **F2** card requires it’s own VDC for now, when mixed with **M-Series** or even **F1** line-cards in the same chassis. Therefore the original prolem is avoided, but still a cludge.
 
@@ -57,5 +57,5 @@ A properly scoped **Nexus 7000** with **M-Series** modules for L3 features and *
 
 *If any of this has changed recently, by all means let me know, but as of now I’m not aware of any changes.*
 
-[img1]: http://ipyandy.net/assets/images/fp_and_m_f_cards_01.jpg
-[img2]: http://ipyandy.net/assets/images/fp_and_m_f_cards_01.jpg
+[img1]: http://inetpy.com/assets/images/fp_and_m_f_cards_01.jpg
+[img2]: http://inetpy.com/assets/images/fp_and_m_f_cards_01.jpg

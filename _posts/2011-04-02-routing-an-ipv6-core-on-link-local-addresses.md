@@ -19,7 +19,7 @@ tags:
   - ospfv3
   - path-mtu
 ---
-![](http://ipyandy.net/images/ipv6_banner.jpg)
+![](http://inetpy.com/images/ipv6_banner.jpg)
 
 Can routing an IPv6 Core on link-local addresses be done? Will IPv6 work in a network backbone that only has link-local addresses configured? For this test I’ll be using OSPFv3 but protocol itself shouldn’t matter much (on native broadcast/multicast capable interfaces) anyway. The topology I’ll be using is probably going to be the same one from now on, (or at the very least variations of the same) I kept changing it before. This is is thanks to <a title="“ioshints”" href="https://twitter.com/#!/ioshints" target="blank">Ivan Pepelnjak</a> and his awesome <a title="“webinars”" href="http://www.ioshints.info/Webinars" target="blank">webinars</a>, gave me the idea for a hack of his topology.
 
@@ -27,7 +27,7 @@ Can routing an IPv6 Core on link-local addresses be done? Will IPv6 work in a ne
 
 Basically, a set of routers connecting to the **”core”** with various serial connections. Running OSPFv3 area 0 in the core with only IPv6 Link-Local addresses on the PPP and Frame-relay links. The remote “branches” are fully configured for IPv6 and passing information along through the backbone network. Just imagine the ABRs are set of POPs in different parts of the country, making up the backbone network, with a centralized **Core** at either the Central site or some colocation space. Purpose of this is just to verify connectivity and other possible things that may go irate in this scenario.
 
-[<img id="img1" title="img1" src="http://ipyandy.net/assets/images/ipv6_link-local_only.png" alt="" width="" height="" />][img1]
+[<img id="img1" title="img1" src="http://inetpy.com/assets/images/ipv6_link-local_only.png" alt="" width="" height="" />][img1]
 
 <!--more-->
 
@@ -456,4 +456,4 @@ While IPv6 can be routed end-to-end for proper source addresses through a backbo
 
 While it should probably be avoided, at least we know it works with at least ONE address being routable. There were no applications or IPv6 addresses harmed in the making of this post.
 
- [img1]: http://ipyandy.net/assets/images/ipv6_link-local_only.png
+ [img1]: http://inetpy.com/assets/images/ipv6_link-local_only.png

@@ -19,13 +19,13 @@ tags:
   - summary-lsa
 ---
 --------------------------------------------------------------------------
-![](http://ipyandy.net/images/ospf_banner_generic.jpg)
+![](http://inetpy.com/images/ospf_banner_generic.jpg)
 --------------------------------------------------------------------------
 
 Well, what is the Summary LSA? It's an LSA flooded throughout the backbone area, which describes networks in other areas. Originated only by ABRs (Area Border Routers) and not flooded beyond the scope of the ABR's areas. What makes this LSA unique is, well, the SPF algorithm is not performed on it, the ABR simply adds the cost of the LSA + the cost to get to the neighboring ABR. This is a bit longer of a post than most my previous one’s, but hopefully it’s also useful for some.
 
 Take this very simplistic example below:  
-[<img class="alignnone" alt="" src="http://ipyandy.net/assets/images/7946942c53ea1113b14c25472599014a.png" />][1]
+[<img class="alignnone" alt="" src="http://inetpy.com/assets/images/7946942c53ea1113b14c25472599014a.png" />][1]
 
 R1 is advertising it's directly connected link of &#8220;192.168.100.0/24&#8243; to ABR1. Assuming the directly connected cost of the link that R1 is advertising has a cost of one, and the link between R1 and ABR1 is also one. Upon receiving this update, ABR1 has a route to 192.168.100.0/24 with a cost of two.
 
@@ -40,7 +40,7 @@ In this example all links have a cost of one for simplicity. This is why OSPF is
 Now, let's examine this in a proper configuration scenario. All links have been manually configured to have a cost of one again, to keep things simple. But viewing outputs of what's going on, will give a better feel for the inner workings.
 
 Here's the topology we'll be working with:  
-[<img class="alignnone" alt="" src="http://ipyandy.net/assets/images/24e635c09a840306a4625f7bb4eb28fb.png" width="603" height="382" />][2]
+[<img class="alignnone" alt="" src="http://inetpy.com/assets/images/24e635c09a840306a4625f7bb4eb28fb.png" width="603" height="382" />][2]
 
 BB1 is advertising it’s loopback0 interface 101.101.101.0/24 to area 100 with a cost of one. The reason a /24 is being advertised and not the default /32 for loopbacks, is that I configured “ip ospf network point-to-point” forcing the real mask to be advertised. When we look at the output for **R1**, we can see the Router LSA type-1 advertised by BB1 (101.101.101.254) including it’s loopback network.
 
@@ -259,5 +259,5 @@ LSA Type-3 or Network Summary LSA’s are flooded only within an Area, and each 
 
 Again, this was a bit longer than I’m used to writing :), hopefully helpful and I’m sure I’ll need to revisit and correct some grammatical or spelling mistakes. Or you can simply point them out and I’ll correct them as I see them.
 
- [1]: http://ipyandy.net/assets/images/7946942c53ea1113b14c25472599014a.png
- [2]: http://ipyandy.net/assets/images/24e635c09a840306a4625f7bb4eb28fb.png
+ [1]: http://inetpy.com/assets/images/7946942c53ea1113b14c25472599014a.png
+ [2]: http://inetpy.com/assets/images/24e635c09a840306a4625f7bb4eb28fb.png

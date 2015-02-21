@@ -29,7 +29,7 @@ Before going into detail, let’s just see how this is done in IOS for those tha
 
 So here’s the diagram of **R1** and **R2** connected via an ethernet link, and using EIGRP to pass routes. They each have a loopback interface with IP address of 10.0.0.1/32 and 10.0.0.2/32 respectively.
 
-[<img id="img1" title="img1" src="http://ipyandy.net/assets/images/EIGRP_R1_R2.png" alt="" width="" height="" />][img1]
+[<img id="img1" title="img1" src="http://inetpy.com/assets/images/EIGRP_R1_R2.png" alt="" width="" height="" />][img1]
 
 #### R1 Configuration {#r1configuration}
 
@@ -188,4 +188,4 @@ You can see there’s already a **distribute** list applied with the **ip distri
 
 There’s no doubt that the Nexus line of switches are a fun product to play with. But so is any other network equipment, when it’s not broken. However, there’s always discrepancies it seems in the Cisco product line on how to apply certain commands. Not always where you expect them to be, where you’re thought they would be. Yes, that’s what the command reference and configuration guides are for. But sometimes, just sometimes, you’ll want to have some kind of consistency in things; don’t ya? Hopefully this helps someone out :)
 
-[img1]: http://ipyandy.net/assets/images/EIGRP_R1_R2.png
+[img1]: http://inetpy.com/assets/images/EIGRP_R1_R2.png

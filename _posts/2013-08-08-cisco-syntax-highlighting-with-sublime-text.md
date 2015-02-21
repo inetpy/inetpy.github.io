@@ -22,7 +22,7 @@ tags:
   - sublimetext-2
 ---
 <hr>
-![](http://ipyandy.net/images/sublimebanner.jpg)
+![](http://inetpy.com/images/sublimebanner.jpg)
 <hr>
 
 Never look at Cisco configs the same way again, try syntax highlighting just as if you were writing **C++** or **Python** or any other programming language.
@@ -49,10 +49,10 @@ This is still somewhat **beta**, any updates I’ll publish here
 
 **Sample One**
 
-[<img id="img1" title="Sample One" alt="Sample One" src="http://ipyandy.net/assets/images/subsample1.png" width="637" height="244" />][4]
+[<img id="img1" title="Sample One" alt="Sample One" src="http://inetpy.com/assets/images/subsample1.png" width="637" height="244" />][4]
 
 **Sample Two** 
-[ <img id="img2" title="Sample Two" alt="Sample Two" src="http://ipyandy.net/assets/images/subsample2.png" />][5]
+[ <img id="img2" title="Sample Two" alt="Sample Two" src="http://inetpy.com/assets/images/subsample2.png" />][5]
 
- [4]: http://ipyandy.net/assets/images/subsample1.png
- [5]: http://ipyandy.net/assets/images/subsample2.png
+ [4]: http://inetpy.com/assets/images/subsample1.png
+ [5]: http://inetpy.com/assets/images/subsample2.png

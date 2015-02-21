@@ -20,7 +20,7 @@ tags:
   - cpp
 ---
 <hr>
-![](http://ipyandy.net/images/coding_banner.jpeg)
+![](http://inetpy.com/images/coding_banner.jpeg)
 <hr>
 
 ### Background
